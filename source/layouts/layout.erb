@@ -17,14 +17,15 @@
     <% end %>
   </head>
   <body class="<%= page_classes %>">
-     <div class="container theme-showcase" role="main">
-       <%= partial "navigation" %>
-       <%= yield %>
-
-       <footer>
-         <%= Time.now.year %> <%= site_title %>
-       </footer>
-     </div>
-     <%= javascript_include_tag "base.js", "bootstrap-includes.js", "main.js" %>
+    <%= partial "navigation" %>
+    <div class="container" role="main">
+      <%= yield %>
+    </div>
+    <footer>
+      <div class="container">
+        <%= Time.now.year %> <%= site_title %>
+      </div>
+    </footer>
+    <%= javascript_include_tag "base.js", "bootstrap-includes.js", "main.js" %>
   </body>
 </html>

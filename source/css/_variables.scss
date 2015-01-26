@@ -1,1 +1,19 @@
-$brand-primary:             purple;
+// colors
+$white: #fff;
+$black-light: #6e6e70;
+$black: #333333;
+$blue-light: #14a7da;
+$blue: #0082be;
+$gray: #dfdfdf;
+$purple-light: #96639c;
+$purple: #6b2875;
+
+$brand-primary: $purple;
+$navbar-height: 100px;
+$navbar-inverse-toggle-icon-bar-bg: #000;
+$navbar-inverse-link-hover-color: #000;
+$navbar-inverse-toggle-icon-bar-bg: #000;
+$navbar-default-link-color: $purple;
+$navbar-default-link-hover-color: $purple-light;
+$navbar-default-bg: $white;
+$navbar-default-border: transparent;
