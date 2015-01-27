@@ -13,7 +13,7 @@ end
 # ========================================================================
 set :site_title,            "Ekumen"
 set :site_description,      "We are people from different parts of the world to build technology to the world."
-set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com/"
+set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com"
 set :site_url_development,  "http://localhost:4567"
 set :css_dir,               'css'
 set :js_dir,                'js'
@@ -128,6 +128,7 @@ end
 # Development-specific configuration
 # ========================================================================
 configure :development do
+  activate :relative_assets
   set :site_url, "#{site_url_development}"
 end
 

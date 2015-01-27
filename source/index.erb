@@ -5,7 +5,107 @@ changefreq: weekly
 priority: 1
 ---
 
-<div class="jumbotron">
-  <h1>Ekumen</h1>
-  <p>We bring technology to the world.</p>
+<div class="home-header">
+  <div class="container">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <%= image_tag("carousel/1.jpg", :alt => "drone") %>
+          <div class="carousel-caption">
+            <h3>Attitude</h3>
+            <p>A-T-T-I-T-U-D-E</p>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("carousel/2.jpg", :alt => "drone") %>
+          <div class="carousel-caption">
+            <h3>Drones</h3>
+            <p>Yes we got that</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container work">
+  <h1>Our work</h1>
+  <p>We are people from different parts of the world to build technology to the world</p>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://placekitten.com/g/242/300" alt="placeholder">
+        <div class="caption">
+          <h3>Real-time Web application development</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://placekitten.com/g/242/300" alt="placeholder">
+        <div class="caption">
+          <h3>Simple usable interfaces to complex systems</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://placekitten.com/g/242/300" alt="placeholder">
+        <div class="caption">
+          <h3>Web robotics</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="https://placekitten.com/g/242/300" alt="placeholder">
+        <div class="caption">
+          <h3>Android-based systems and applications</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h1>Our clients</h1>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <%= image_tag("clients/savioke.png", :alt => "Savioke") %>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <%= image_tag("clients/qq.png", :alt => "QinetiQ") %>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <%= image_tag("clients/yujinrobot.png", :alt => "Yujin Robot") %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -8,14 +8,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<%=site_url %>">
-        <img title="<%= site_title %>" alt="<%= site_title %>" src="<%=site_url %>/img/logo.png" height="50">
+
+      <a class="navbar-brand" href="/">
+        <%= image_tag("logo.png", :alt => site_title) %>
       </a>
     </div>
 
     <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="<%= "#{site_url}#{url_sample}" %>">Sample</a></li>
+        <li><%= link_to 'Home', '/' %></li>
+        <li><%= link_to 'Projects', '/soon' %></li>
+        <li><%= link_to 'Team', '/soon' %></li>
+        <li><%= link_to 'Jobs', '/soon' %></li>
+        <li><%= link_to 'Blog', '/soon' %></li>
+        <li><%= link_to 'About us', '/soon' %></li>
       </ul>
     </nav><!-- /.navbar-collapse -->
   </div><!-- /.container -->

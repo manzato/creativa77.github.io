@@ -18,9 +18,9 @@
   </head>
   <body class="<%= page_classes %>">
     <%= partial "navigation" %>
-    <div class="container" role="main">
-      <%= yield %>
-    </div>
+
+    <%= yield %>
+
     <footer>
       <div class="container">
         <%= Time.now.year %> <%= site_title %>

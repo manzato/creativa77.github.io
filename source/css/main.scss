@@ -19,8 +19,9 @@
  * @media screen and (min-width: $screen-lg-min) {}
 */
 
-$logo-height: 50px;
 header.navbar {
+  $logo-height: 50px;
+
   .navbar-brand {
     padding-top: ($navbar-height - $logo-height) / 2;
     padding-bottom: ($navbar-height - $logo-height) / 2;
@@ -33,7 +34,39 @@ header.navbar {
   margin-bottom: 0;
 }
 
+.container.main {
+  min-height: calc(90vh - #{$navbar-height} - 1px);
+}
+
+.home-header {
+  background: $blue;
+}
+.work {
+  padding: 40px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.work .thumbnail {
+  height: 400px;
+}
+
+.clients {
+  background: $gray;
+  padding: 40px 0;
+
+  .thumbnail {
+    border: none;
+    background: $gray;
+    img {
+      max-width: 70%;
+    }
+  }
+}
+
 footer {
+  min-height: 10vh;
+  line-height: 10vh;
   color: $white;
   background: $purple;
 }
