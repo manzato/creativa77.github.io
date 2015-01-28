@@ -23,7 +23,23 @@
 
     <footer>
       <div class="container">
-        <%= Time.now.year %> <%= site_title %>
+        <div class="row">
+          <div class="col-sm-3">
+            <%= image_tag("logo_white.png", :alt => site_title, :class => "logo") %>
+          </div>
+          <div class="col-sm-6">
+            <p>Ekumen | Phone +54 (11) 5219-0895 |
+              <a href="mailto:contact@ekumenlabs.com">contact@ekumenlabs.com</a>
+            </p>
+            <p>Concepcion Arenal 3425 2-35 | C1427EKA, C.A.B.A | Argentina</p>
+            <p>Copyright &copy; <%= Time.now.year %> Ekumen.
+              All rights reserved.</p>
+          </div>
+          <div class="col-sm-3 social-links">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-google-plus-square"></i>
+          </div>
+
       </div>
     </footer>
     <%= javascript_include_tag "base.js", "bootstrap-includes.js", "main.js" %>
