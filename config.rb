@@ -13,24 +13,21 @@ end
 # ========================================================================
 set :site_title,            "Ekumen"
 set :site_description,      "We are people from different parts of the world to build technology to the world."
-set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com"
-set :site_url_development,  "http://localhost:4567"
+set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com/"
+set :site_url_development,  "http://localhost:4567/"
 set :css_dir,               'css'
 set :js_dir,                'js'
 set :images_dir,            'img'
 set :fonts_dir,             'fonts'
 set :partials_dir,          '_partials'
-
-# Sitemap URLs (use trailing slashes)
-set :url_sample,            "/sample/"
-# Place additional URLs here...
+set :relative_links,        true
 
 # Sitemap XML
 require "builder"
 page "/sitemap.xml", :layout => false
 
 # Slim template engine
-require "slim"
+# require "slim"
 
 # Internationalization
 activate :i18n
@@ -128,7 +125,6 @@ end
 # Development-specific configuration
 # ========================================================================
 configure :development do
-  activate :relative_assets
   set :site_url, "#{site_url_development}"
 end
 
@@ -142,14 +138,12 @@ configure :build do
   activate :minify_css
   activate :minify_html
   activate :minify_javascript
-  activate :gzip
+  # activate :gzip # github already serves websites automatically with gzip
 
   # Enable cache buster
-  activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif']
+  # activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif']
 
   # Ignore files/dir during build process
-  ignore "environment_variables.rb"
-  ignore "environment_variables.rb.sample"
   ignore "favicon_template.png"
   ignore "sitemap.yml"
 
