@@ -10,6 +10,7 @@
 @import "_globals";               // Global elements
 @import "_bootstrap-includes";    // Bootstrap core
 
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
 /* ==========================================================================
  * Media queries to target specific breakpoints
@@ -19,15 +20,29 @@
  * @media screen and (min-width: $screen-lg-min) {}
 */
 
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 header.navbar {
-  $logo-height: 50px;
+  $logo-height: 55px;
 
   .navbar-brand {
     padding-top: ($navbar-height - $logo-height) / 2;
     padding-bottom: ($navbar-height - $logo-height) / 2;
-    img {
-      height: 100%;
-      width: auto;
+    @media screen and (max-width: $screen-xs-min) {
+      $logo-height: 25px;
+      padding-top: ($navbar-height - $logo-height) / 2;
+      padding-bottom: ($navbar-height - $logo-height) / 2;
+
+      img {
+        height: 25px;
+      }
     }
   }
 
@@ -49,19 +64,21 @@ header.navbar {
 
 .work .thumbnail {
   margin-top: 20px;
-  height: 450px;
+  min-height: 450px;
 }
 
 .clients {
   background: $gray;
-  height: 150px;
   line-height: 150px;
-  h1 {
+  text-align: center;
+
+  .heading {
     margin: 0;
     line-height: 150px;
   }
     img {
-      height: 40px;
+      max-height: 40px;
+      max-width: 80%;
     }
 
 }

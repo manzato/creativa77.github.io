@@ -40,7 +40,7 @@ activate :directory_indexes
 
 # Autoprefixer
 activate :autoprefixer do |config|
-  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.browsers = ['> 5%', 'Explorer >= 9', 'Firefox >= 20']
   config.cascade  = false
   config.inline   = false
 end

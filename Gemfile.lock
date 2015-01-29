@@ -7,10 +7,12 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    autoprefixer-rails (4.0.2.2)
+    autoprefixer-rails (5.0.0.3)
       execjs
-    bootstrap-sass (3.3.1.0)
-      sass (~> 3.2)
+      json
+    bootstrap-sass (3.3.3)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.2.19)
     builder (3.2.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -82,8 +84,8 @@ GEM
       middleman-sprockets (>= 3.1.2)
       sass (>= 3.4.0, < 4.0)
       uglifier (~> 2.5)
-    middleman-autoprefixer (2.3.0)
-      autoprefixer-rails (~> 4.0.0)
+    middleman-autoprefixer (2.4.0)
+      autoprefixer-rails (>= 5.0.0.1, < 5.1.0)
       middleman-core (>= 3.3.3)
     middleman-core (3.3.7)
       activesupport (~> 4.1.0)
@@ -177,11 +179,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3)
+  bootstrap-sass (~> 3.3.3)
   builder (~> 3.2.2)
   font-awesome-middleman (~> 4.2.3)
   middleman (= 3.3.7)
-  middleman-autoprefixer (~> 2.3.0)
+  middleman-autoprefixer (~> 2.4.0)
   middleman-deploy (~> 1.0)
   middleman-favicon-maker (~> 3.7)
   middleman-imageoptim (~> 0.2.0)
