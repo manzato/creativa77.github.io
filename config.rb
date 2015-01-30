@@ -133,12 +133,7 @@ end
 # ========================================================================
 configure :build do
   set :site_url, "#{site_url_production}"
-  set :sass, line_comments: false, style: :nested
-
-  activate :minify_css
-  activate :minify_html
-  activate :minify_javascript
-  # activate :gzip # github already serves websites automatically with gzip
+  set :sass, line_comments: false, style: :expanded
 
   # Enable cache buster
   # activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif']
