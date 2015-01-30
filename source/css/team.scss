@@ -1,0 +1,13 @@
+.team .content {
+  .person {
+    margin-bottom: $grid-gutter-width;
+    h4 {
+      margin-top: 0;
+    }
+    img {
+      margin: 0 10px;
+      width: 120px;
+      border-radius: 3px;
+    }
+  }
+}

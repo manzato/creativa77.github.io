@@ -1,0 +1,33 @@
+.container.main {
+  min-height: calc(90vh - #{$navbar-height} - 1px);
+}
+
+.home-header {
+  background: $blue;
+}
+.work {
+  padding: 40px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.work .thumbnail {
+  margin-top: 20px;
+  min-height: 450px;
+}
+
+.clients {
+  background: $gray;
+  line-height: 150px;
+  text-align: center;
+
+  .heading {
+    margin: 0;
+    line-height: 150px;
+  }
+    img {
+      max-height: 40px;
+      max-width: 80%;
+    }
+
+}

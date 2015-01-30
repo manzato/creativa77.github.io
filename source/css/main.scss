@@ -3,14 +3,15 @@
 /* ==========================================================================
  * Imports / Includes
  * ========================================================================== */
-
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700); // Google fonts
 @import "font-awesome";           // Font Awesome icon library
 @import "_variables";             // Bootstrap variable overrides
 @import "_mixins";                // Custom mixins
 @import "_globals";               // Global elements
 @import "_bootstrap-includes";    // Bootstrap core
+@import "home";                   // Home page
+@import "team";                   // Team page
 
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
 /* ==========================================================================
  * Media queries to target specific breakpoints
@@ -35,6 +36,8 @@ header.navbar {
   .navbar-brand {
     padding-top: ($navbar-height - $logo-height) / 2;
     padding-bottom: ($navbar-height - $logo-height) / 2;
+
+    // Small logo for mobile navbar
     @media screen and (max-width: $screen-xs-min) {
       $logo-height: 25px;
       padding-top: ($navbar-height - $logo-height) / 2;
@@ -49,46 +52,13 @@ header.navbar {
   margin-bottom: 0;
 }
 
-.container.main {
-  min-height: calc(90vh - #{$navbar-height} - 1px);
-}
-
-.home-header {
-  background: $blue;
-}
-.work {
-  padding: 40px 0;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.work .thumbnail {
-  margin-top: 20px;
-  min-height: 450px;
-}
-
-.clients {
-  background: $gray;
-  line-height: 150px;
-  text-align: center;
-
-  .heading {
-    margin: 0;
-    line-height: 150px;
-  }
-    img {
-      max-height: 40px;
-      max-width: 80%;
-    }
-
-}
-
 footer {
   min-height: 10vh;
   line-height: 10vh;
   color: $white;
   background: $purple;
   padding: 40px 0;
+
   a {
     color: white;
   }
