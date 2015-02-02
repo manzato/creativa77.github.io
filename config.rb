@@ -12,7 +12,7 @@ end
 # Site settings
 # ========================================================================
 set :site_title,            "Ekumen"
-set :site_description,      "We are people from different parts of the world to build technology to the world."
+set :site_description,      "We are people from different parts of the world to build technology for the world."
 set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com/"
 set :site_url_development,  "http://localhost:4567/"
 set :css_dir,               'css'

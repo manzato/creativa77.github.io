@@ -11,7 +11,7 @@
 @import "_bootstrap-includes";    // Bootstrap core
 @import "home";                   // Home page
 @import "team";                   // Team page
-
+@import "projects";               // Projects page
 
 /* ==========================================================================
  * Media queries to target specific breakpoints
@@ -23,6 +23,7 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6em;
   font-weight: 400;
 }
 
@@ -59,8 +60,9 @@ footer {
   background: $purple;
   padding: 40px 0;
 
-  a {
+  a, a:link, a:visited, a:hover, a:active {
     color: white;
+    text-decoration: none;
   }
   .social-links {
     font-size: 30px;
