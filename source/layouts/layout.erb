@@ -25,7 +25,12 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <%= image_tag("logo_white.png", :alt => site_title, :class => "logo") %>
+            <%= link_to(
+              image_tag("logo_white.png", :alt => site_title, :class => "logo"),
+              site_url,
+              :title => site_title
+              )
+            %>
           </div>
           <div class="col-sm-6">
             <p>Ekumen | Phone +54 (11) 5219-0895 |
@@ -36,12 +41,19 @@
               All rights reserved.</p>
           </div>
           <div class="col-sm-3 social-links">
-            <i class="fa fa-facebook-square"></i>
-            <i class="fa fa-google-plus-square"></i>
+            <a href="https://www.facebook.com/creativa77" target="_blank">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+            <a href="https://twitter.com/ekumenlabs" target="_blank">
+              <i class="fa fa-twitter-square"></i>
+            </a>
           </div>
 
       </div>
     </footer>
     <%= javascript_include_tag "base.js", "bootstrap-includes.js", "main.js" %>
+    <% current_page.data.extrajs.each do |jsfile|%>
+        <%= javascript_include_tag jsfile %>
+    <% end if current_page.data.extrajs %>
   </body>
 </html>
