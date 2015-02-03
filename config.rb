@@ -152,10 +152,10 @@ configure :build do
 
   # Create favicon and device-specific icons
   # Edit favicon_template.png for custom icon
-  activate :favicon_maker, :icons => {
-    "favicon_template.png" => [
-      { icon: "apple-touch-icon-precomposed.png", size: "152x152"  },
-      { icon: "favicon.ico", size: "32x32" }
-    ]
-  }
+  # activate :favicon_maker, :icons => {
+  #   "favicon_template.png" => [
+  #     { icon: "apple-touch-icon-precomposed.png", size: "152x152"  },
+  #     { icon: "favicon.ico", size: "32x32" }
+  #   ]
+  # }
 end
