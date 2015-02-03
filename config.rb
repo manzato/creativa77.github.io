@@ -18,7 +18,6 @@ set :site_url_development,  "http://localhost:4567/"
 set :css_dir,               'css'
 set :js_dir,                'js'
 set :images_dir,            'img'
-set :fonts_dir,             'fonts'
 set :partials_dir,          '_partials'
 set :relative_links,        true
 
@@ -144,18 +143,18 @@ configure :build do
 
   # Compress and optimise images during build
   # Documentation: https://github.com/plasticine/middleman-imageoptim
-  activate :imageoptim do |options|
-    # Image extensions to attempt to compress
-    options.image_extensions = %w(.png .jpg .gif .svg)
-    # Cause image_optim to be in shouty-mode
-    options.verbose = false
-  end
+  # activate :imageoptim do |options|
+  #   # Image extensions to attempt to compress
+  #   options.image_extensions = %w(.png .jpg .gif .svg)
+  #   # Cause image_optim to be in shouty-mode
+  #   options.verbose = false
+  # end
 
   # Create favicon and device-specific icons
   # Edit favicon_template.png for custom icon
   activate :favicon_maker, :icons => {
     "favicon_template.png" => [
-      { icon: "apple-touch-icon-precomposed.png" },
+      { icon: "apple-touch-icon-precomposed.png", size: "152x152"  },
       { icon: "favicon.ico", size: "32x32" }
     ]
   }

@@ -1,3 +1,6 @@
+@import "_variables";
+@import "bootstrap/variables";
+
 .container.main {
   min-height: calc(90vh - #{$navbar-height} - 1px);
 }

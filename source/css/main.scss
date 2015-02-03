@@ -5,9 +5,16 @@
  * ========================================================================== */
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700); // Google fonts
 @import "font-awesome";           // Font Awesome icon library
-@import "_variables";             // Bootstrap variable overrides
-@import "_mixins";                // Custom mixins
-@import "_globals";               // Global elements
+
+// Bootstrap variable overrides is before "bootstrap/variables" include becaue
+// bootstrap vars are declared with !default, which means that the value is
+// used unless there is another value. The reason of this is that there is
+// some arithmetic in bootstrap vars.
+@import "_variables";
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
 @import "_bootstrap-includes";    // Bootstrap core
 @import "home";                   // Home page
 @import "team";                   // Team page
@@ -25,6 +32,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.6em;
   font-weight: 400;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {

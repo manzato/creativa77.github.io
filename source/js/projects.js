@@ -1,1 +1,1 @@
-$('body').scrollspy({ target: '.affix-nav' });
+$('body').scrollspy({ target: '.affix-nav'});
