@@ -84,39 +84,16 @@ activate :livereload
 # end
 
 helpers do
-
-  # Gets partials from the _partials directory
-  def _partial(partial_filename)
-    partial "_partials/#{partial_filename}"
-  end
-
-  # Formats li item, and determines when to put class=active on li element
-  # (according to Bootstrap >3.1.1 spec)
-  def nav_li(label, url, css_class="", icon="")
-
-    # Determine if icon is specified
-    nav_icon = ""
-    unless icon.nil? or icon.empty?
-      nav_icon = " <i class='fa #{icon}'></i>"
-    end
-
-    # Normalize name string for use as HTML class
-    li_classes = ""
-    unless css_class.nil? or css_class.empty?
-      # Assign processed name to variable
-      li_classes = "#{css_class}"
+  def nav_link_to(link, url, opts={})
+    current_url = current_resource.url
+    if current_url == url_for(url) || current_url == url_for(url) + "/" ||
+      url_for(url).start_with?("./")
+      prefix = '<li class="active">'
     else
-      label_formatted = label.downcase.tr(" ", "-")
-      li_classes = "nav-item-#{label_formatted}"
+      prefix = '<li>'
     end
-
-    if current_page.url == url
-      li_classes += " active"
-    end
-
-    "<li class='#{li_classes}'><a href='#{url}'>#{label}#{nav_icon}</a></li>"
+    prefix + link_to(link, url, opts) + "</li>"
   end
-
 end
 
 
