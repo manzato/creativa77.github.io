@@ -2,8 +2,10 @@
   <div class="content container">
 
     <h1><%= current_article.title %></h1>
-    <small><%= current_article.date.strftime('%b %e %Y') %></small>
+    <small><%= current_article.date.strftime('%B %e, %Y') %></small>
 
     <%= yield %>
+
+    <a href="#top">Back to the top</a> or <%= link_to "go back to the Ekumen blog", "/blog.html" %>
   </div>
 <% end %>

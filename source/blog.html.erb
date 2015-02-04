@@ -9,11 +9,11 @@ layout: page
   <article>
     <h1>
       <a href="<%= article.url %>"><%= article.title %></a>
-      <small><%= article.date.strftime('%b %e %Y') %></small>
+      <small><%= article.date.strftime('%B %e, %Y') %></small>
     </h1>
 
     <p><%= article.summary %></p>
 
-    <p><a href="<%= article.url %>">Read more</a></p>
+    <p><a href="<%= article.url %>">Read more &#8594;</a></p>
   </article>
 <% end %>
