@@ -8,12 +8,12 @@ layout: page
 <% blog.articles[0...5].each do |article| %>
   <article>
     <h1>
-      <a href="<%= article.url %>"><%= article.title %></a>
+      <%= link_to article.title, article.path %></a>
       <small><%= article.date.strftime('%B %e, %Y') %></small>
     </h1>
 
     <p><%= article.summary %></p>
 
-    <p><a href="<%= article.url %>">Read more &#8594;</a></p>
+    <p><%= link_to "Read more &#8594;", article.path %></p>
   </article>
 <% end %>
