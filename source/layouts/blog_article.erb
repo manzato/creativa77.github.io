@@ -1,0 +1,9 @@
+<% wrap_layout :layout do %>
+  <div class="content container">
+
+    <h1><%= current_article.title %></h1>
+    <small><%= current_article.date.strftime('%b %e %Y') %></small>
+
+    <%= yield %>
+  </div>
+<% end %>

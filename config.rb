@@ -44,6 +44,13 @@ activate :autoprefixer do |config|
   config.inline   = false
 end
 
+activate :blog do |blog|
+  blog.layout = "blog_article"
+  blog.prefix = "blog"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.sources = "{title}.html"
+end
+
 # Reload the browser automatically whenever files change
 activate :livereload
 

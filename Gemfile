@@ -3,6 +3,10 @@ source "https://rubygems.org"
 # Core
 gem "middleman", "3.3.7"
 
+# Blogging
+gem "middleman-blog"
+gem "nokogiri"
+
 # Assets
 gem "bootstrap-sass", "~> 3.3.3", require: false
 gem "font-awesome-middleman", "~> 4.2.3"
