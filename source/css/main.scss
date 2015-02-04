@@ -30,13 +30,18 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  line-height: 1.6em;
+  line-height: 1.6;
   font-weight: 400;
   position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+  margin: 1em 0 .75em;
+}
+
+p {
+  margin: 2em 0;
 }
 
 header.navbar {
