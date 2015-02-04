@@ -2,7 +2,7 @@
 title: Projects
 layout: page
 extrajs:
-  - projects.js
+- projects.js
 ---
 
 <div class="row">
@@ -11,87 +11,112 @@ extrajs:
       <h1>Projects</h1>
 
       <section id="premise">
-        <div class="well well-large">
-          <span class="portfolio-item-title"> Monitoring price changes around the world. </span>
-          <span class="portfolio-item-description">Pricespot is the mobile application used to gather consumerâs prices and product data for <a href="http://www.premise.com" target="_blank">premise</a>, a company devoted to track macroeconomic and human trends in real time.
-          </span>
-          <div class="portfolio-item-contributions">
-            We improved the <span class="label label-success">Android</span> mobile application design with the use of <span class="label label-success">Android Services</span> for data upload, enhanced UI interaction and integrated it with <span class="label label-success">Google Places API</span> for better location support.
-          </div>
-        </div>
+        <h2>Monitoring price changes around the world</h2>
+
+        <p>
+          Pricespot is the mobile application used to gather consumerâs prices and product data for <a href="http://www.premise.com" target="_blank">premise</a>, a company devoted to track macroeconomic and human trends in real time.
+        </p>
+
+        <p>
+          We improved the <span class="label label-success">Android</span> mobile application design with the use of <span class="label label-success">Android Services</span> for data upload, enhanced UI interaction and integrated it with <span class="label label-success">Google Places API</span> for better location support.
+        </p>
       </section>
 
       <section id="ros">
-        <div class="well well-large">
-          <span class="portfolio-item-title"> Porting ROS to Android devices. </span>
-          <span class="portfolio-item-description">The aim of this project is to develop an autonomous robot system using <a href="http://wiki.ros.org" target="_blank">ROS</a> that executes entirely on an Android device.
-          </span>
-          <div class="portfolio-item-contributions">
-            We contributed to <a href="http://wiki.ros.org/rosjava" target="_blank">ROS Java</a> by implementing a <a href="https://github.com/Ekumen/base_controller" target="_blank">base controller</a> from scratch, extend it to use the multiple radios instead of just WiFi and added the ability to create externally reachable masters in an <span class="label label-success">Android</span> device. We are also diving into <span class="label label-success">ROS internals</span> to isolate the minimum required modules for a robot to navigate autonomously. Depending on the situation we are re-implementing core functionality in <span class="label label-success">Java</span> or compiling existing sources with <span class="label label-success">Android NDK</span>.
-          </div>
-        </div>
+        <h2>Porting ROS to Android devices</h2>
+
+        <p>
+          The aim of this project is to develop an autonomous robot system using <a href="http://wiki.ros.org" target="_blank">ROS</a> that executes entirely on an Android device.
+        </p>
+
+        <p>
+          We contributed to <a href="http://wiki.ros.org/rosjava" target="_blank">ROS Java</a> by implementing a <a href="https://github.com/Ekumen/base_controller" target="_blank">base controller</a> from scratch, extend it to use the multiple radios instead of just WiFi and added the ability to create externally reachable masters in an <span class="label label-success">Android</span> device. We are also diving into <span class="label label-success">ROS internals</span> to isolate the minimum required modules for a robot to navigate autonomously. Depending on the situation we are re-implementing core functionality in <span class="label label-success">Java</span> or compiling existing sources with <span class="label label-success">Android NDK</span>.
+        </p>
       </section>
 
-      <div class="well well-large">
-        <span class="portfolio-item-title">Implementing language bindings for airbrite.io.</span>
-        <span class="portfolio-item-description"><a href="https://www.airbrite.io/" target="_blank">Airbrite.io</a> exposes a full e-commerce sollution to developers by means of a REST API, including product catalog, orders and online payments.
-        </span>
-        <div class="portfolio-item-contributions">
+      <section id="airbrite">
+        <h2>Implementing language bindings for airbrite.io</h2>
+
+        <p>
+          <a href="https://www.airbrite.io/" target="_blank">Airbrite.io</a> exposes a full e-commerce sollution to developers by means of a REST API, including product catalog, orders and online payments.
+        </p>
+
+        <p>
           We created API bindings for <span class="label label-success">Backbone.js</span> and <span class="label label-success">Python</span> and we are currently working on <span class="label label-success">Node.js</span>, <span class="label label-success">Ruby</span> and <span class="label label-success">PHP</span> versions.
-        </div>
-      </div>
+        </p>
+      </section>
 
-      <div class="well well-large">
-        <span class="portfolio-item-title">Inventing the next-generation user interfaces for autonomous robots.</span>
-        <span class="portfolio-item-description"><a href="http://www.savioke.com/" target="_blank">Saviokeâs</a> mission is to develop affordable, usable robots for the services industry.</span>
-        <div class="portfolio-item-contributions">
+      <section id="savioke">
+        <h2>Inventing the next-generation user interfaces for autonomous robots</h2>
+
+        <p>
+          <a href="http://www.savioke.com/" target="_blank">Savioke</a> mission is to develop affordable, usable robots for the services industry.
+        </p>
+
+        <p>
           At Ekumen we are helping Savioke to develop top-quality user experiences for robot control, including autonomous navigation and teleoperation. Our approach is based on web user interfaces using <span class="label label-success">Meteor</span>, <span class="label label-success">JavaScript</span> and <span class="label label-success">Rosbridge</span>, a JSON transport layer included in the <span class="label label-success">Robot Web Tools</span> bundle.
-        </div>
-      </div>
+        </p>
+      </section>
 
-      <div class="well well-large">
-        <span class="portfolio-item-title">Live online video streaming. </span>
-        <span class="portfolio-item-description"> We are prototyping new content protection solutions for live video delivered over the Internet. </span>
-        <div class="portfolio-item-contributions">
+      <section id="streaming">
+        <h2>Live online video streaming</h2>
+
+        <p>
+          We are prototyping new content protection solutions for live video delivered over the Internet.
+        </p>
+
+        <p>
           For this project we use <span class="label label-success">Adobe Media Server</span> instances running in the <span class="label label-success">Amazon Cloud</span> and stream content via <span class="label label-success">HDS (HTTP Dynamic Streaming)</span>. The backend processing is implemented in <span class="label label-success">Python</span> and uses <span class="label label-success">MongoDB</span> for persistence.
-        </div>
-      </div>
+        </p>
+      </section>
 
-      <div class="well well-large">
-        <span class="portfolio-item-title">Bringing personal robots to the service industry. </span>
-        <span class="portfolio-item-description">This project was a collaboration between Ekumen and <a href="http://www.willowgarage.com/">Willow Garage</a> to take their personal robots to the next level and turn them into products for customers such as hospitals or restaurants.
-        </span>
-        <div class="portfolio-item-contributions">
-          <p>We contributed with our expertise on <span class="label label-success">system integration</span> for bringing some of the existing modules and projects into the services market. We defined the system architecture and adapted the development infrastructure from an open source research project to a private product development business. </p>
+      <section id="savioke">
+        <h2>Bringing personal robots to the service industry</h2>
 
-          <p>At the UX level we created intuitive web interfaces for complex robotics problems using <span class="label label-success">Ember.js</span>, <span class="label label-success">Web Sockets</span> and the <span class="label label-success">Robot Web Tools</span> bundle. We also tackle the problem of non-expert users controlling robots under continuous operation and end-user robot programming.</p>
+        <p>
+          This project was a collaboration between Ekumen and <a href="http://www.willowgarage.com/">Willow Garage</a> to take their personal robots to the next level and turn them into products for customers such as hospitals or restaurants.
+        </p>
 
-          <p>At the backend level we worked throughout the whole <span class="label label-success">ROS stack</span> using <span class="label label-success">C++</span> and <span class="label label-success">Python</span> to implement multiple robot networks (each one with its own master node) and extended the python client API. We also performed <span class="label label-success">kinematics analysis</span> on different client environments using <span class="label label-success">MoveIt!</span>.</p>
-        </div>
-      </div>
+        <p>
+          We contributed with our expertise on <span class="label label-success">system integration</span> for bringing some of the existing modules and projects into the services market. We defined the system architecture and adapted the development infrastructure from an open source research project to a private product development business.
+        </p>
 
-      <div class="well well-large">
-        <span class="portfolio-item-title">Real-time transcription by non-expert captionist crowdsourcing. </span>
-        <span class="portfolio-item-description">Scribe collects audio from a mobile device and schedules workers to perform captioning on small audio segments.
+        <p>
+          At the UX level we created intuitive web interfaces for complex robotics problems using <span class="label label-success">Ember.js</span>, <span class="label label-success">Web Sockets</span> and the <span class="label label-success">Robot Web Tools</span> bundle. We also tackle the problem of non-expert users controlling robots under continuous operation and end-user robot programming.
+        </p>
+
+        <p>
+          At the backend level we worked throughout the whole <span class="label label-success">ROS stack</span> using <span class="label label-success">C++</span> and <span class="label label-success">Python</span> to implement multiple robot networks (each one with its own master node) and extended the python client API. We also performed <span class="label label-success">kinematics analysis</span> on different client environments using <span class="label label-success">MoveIt!</span>.
+        </p>
+      </section>
+
+      <section id="transcript">
+        <h2>Real-time transcription by non-expert captionist crowdsourcing</h2>
+
+        <p>
+          Scribe collects audio from a mobile device and schedules workers to perform captioning on small audio segments.
+        </p>
+
+        <p>
           The distributed captions are then merged into a single text, returning a consolidated transcript to the mobile user.
-        </span>
-        <div class="portfolio-item-contributions">
+        </p>
+
+        <p>
           We worked with <span class="label label-success">Adobe Air</span> on the mobile client to stream audio to an <span class="label label-success">Adobe Media Server</span> and with <span class="label label-success">Javascript and AJAX</span> in the front-end worker application. Back-end development included creating diagnostic and debugging tools in a <span class="label label-success">LAMP Stack</span> as well as integrating with the <span class="label label-success">Java</span> process in charge of merging the distributed transcriptions.
-        </div>
-      </div>
+        </p>
+      </section>
     </article>
+
     <article id="lab">
       <h1>Lab</h1>
       <section id="immedia">
-        <div class="well well-large">
-          <span class="portfolio-item-title">Real-time transcription by non-expert captionist crowdsourcing. </span>
-          <span class="portfolio-item-description">Scribe collects audio from a mobile device and schedules workers to perform captioning on small audio segments.
-            The distributed captions are then merged into a single text, returning a consolidated transcript to the mobile user.
-          </span>
-          <div class="portfolio-item-contributions">
-            We worked with <span class="label label-success">Adobe Air</span> on the mobile client to stream audio to an <span class="label label-success">Adobe Media Server</span> and with <span class="label label-success">Javascript and AJAX</span> in the front-end worker application. Back-end development included creating diagnostic and debugging tools in a <span class="label label-success">LAMP Stack</span> as well as integrating with the <span class="label label-success">Java</span> process in charge of merging the distributed transcriptions.
-          </div>
-        </div>
+        <h2>Real-time transcription by non-expert captionist crowdsourcing</h2>
+        <p>Scribe collects audio from a mobile device and schedules workers to perform captioning on small audio segments.
+          The distributed captions are then merged into a single text, returning a consolidated transcript to the mobile user.
+        </p>
+        <p>
+          We worked with <span class="label label-success">Adobe Air</span> on the mobile client to stream audio to an <span class="label label-success">Adobe Media Server</span> and with <span class="label label-success">Javascript and AJAX</span> in the front-end worker application. Back-end development included creating diagnostic and debugging tools in a <span class="label label-success">LAMP Stack</span> as well as integrating with the <span class="label label-success">Java</span> process in charge of merging the distributed transcriptions.
+        </p>
       </section>
     </article>
   </div>
@@ -99,13 +124,16 @@ extrajs:
   <div class="col-md-3" role="complementary">
     <nav class="projects-sidebar hidden-xs hidden-sm affix-nav" data-spy="affix" data-offset-top="100">
       <ul class="nav">
-        <li class="active">
+        <li>
           <a href="#projects">Projects</a>
           <ul class="nav">
-            <li><a href="#premise">Premise</a></li>
-          </ul>
-          <ul class="nav">
-            <li><a href="#ros">ROS</a></li>
+            <li><a href="#premise">Monitoring price changes around the world</a></li>
+            <li><a href="#ros">Porting ROS to Android devices</a></li>
+            <li><a href="#airbrite">Implementing language bindings for airbrite.io</a></li>
+            <li><a href="#savioke">Inventing the next-generation user interfaces for autonomous robots</a></li>
+            <li><a href="#streaming">Live online video streaming</a></li>
+            <li><a href="#savioke">Bringing personal robots to the service industry</a></li>
+            <li><a href="#transcript">Real-time transcription by non-expert captionist crowdsourcing</a></li>
           </ul>
         </li>
       </ul>

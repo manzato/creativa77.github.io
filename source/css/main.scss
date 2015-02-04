@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 
-  margin: 2em 0;
+  margin: 1.75em 0 2em;
 }
 
 header.navbar {
@@ -70,8 +70,8 @@ header.navbar {
 }
 
 footer {
-  min-height: 10vh;
-  line-height: 10vh;
+  min-height: 300px;
+  line-height: 30px;
   color: $white;
   background: $purple;
   padding: 40px 0;
