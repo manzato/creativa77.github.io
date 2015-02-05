@@ -24,8 +24,6 @@ L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 }).addTo(map);
 map.attributionControl.setPrefix(false);
 
-L.Icon.Default.imagePath = '/img/leaflet';
-
 L.marker([-34.58320, -58.44620]).addTo(map)
 .bindPopup('Ekumen Labs')
 .openPopup();
