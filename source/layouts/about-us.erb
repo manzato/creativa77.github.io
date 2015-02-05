@@ -1,0 +1,29 @@
+<%   wrap_layout :layout do %>
+  <div class="content container">
+    <div class="row">
+      <div class="col-md-6">
+        <%= yield %>
+      </div>
+      <div class="col-md-6">
+        <div class="contactInfo">
+          <h1>Let's get in touch</h1>
+          <address>
+            <strong>Ekumen</strong><br />
+            Concepción Arenal 3425 2-35<br />
+            Ciudad Autónoma de Buenos Aires, C1427EKA<br />
+            Phone: +54 (11) 5219-0895<br />
+            <a href="mailto:contact@ekumenlabs.com">contact@ekumenlabs.com</a>
+          </address>
+          <p>
+            Ekumen's offices are located in the beautiful city
+            of Buenos Aires, Argentina. We invite everyone we work with
+            to come visit us and enjoy what Buenos Aires has to
+            offer!
+          </p>
+          <%= stylesheet_link_tag "leaflet" %>
+          <div id="ekumenOfficeMap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

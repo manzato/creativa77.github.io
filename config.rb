@@ -25,8 +25,8 @@ set :relative_links,        true
 require "builder"
 page "/sitemap.xml", :layout => false
 
-# Slim template engine
-# require "slim"
+# Allow HTML in the Markdown
+set :markdown, parse_block_html: true
 
 # Internationalization
 activate :i18n
