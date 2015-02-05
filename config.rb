@@ -26,7 +26,10 @@ require "builder"
 page "/sitemap.xml", :layout => false
 
 # Allow HTML in the Markdown
-set :markdown, parse_block_html: true
+# see https://github.com/middleman/middleman/issues/1221#issuecomment-38104894
+# Note that Markdown formatting syntax is not processed within block-level HTML
+# tags. E.g., you can’t use Markdown-style *emphasis* inside an HTML block.
+# set :markdown, parse_block_html: true
 
 # Internationalization
 activate :i18n
