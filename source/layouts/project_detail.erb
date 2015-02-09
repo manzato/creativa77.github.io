@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+  <div class="content container">
+
+    <h1><%= current_article.title %></h1>
+
+    <%= yield %>
+
+    <a href="#top">Back to the top</a> or <%= link_to "go back to the Projects", "/projects.html" %>
+  </div>
+<% end %>

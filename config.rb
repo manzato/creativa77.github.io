@@ -48,13 +48,22 @@ activate :autoprefixer do |config|
 end
 
 activate :blog do |blog|
-  blog.layout = "blog_article"
+  blog.name = "blog"
   blog.prefix = "blog"
+  blog.layout = "blog_article"
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.sources = "{title}.html"
   blog.paginate = true
   blog.page_link = "page:num"
   blog.per_page = 5
+end
+
+activate :blog do |blog|
+  blog.name = "projects"
+  blog.prefix = "projects"
+  blog.tag_template = "projects_tag.html"
+  blog.permalink = "{title}.html"
+  blog.layout = "project_detail"
 end
 
 # Reload the browser automatically whenever files change

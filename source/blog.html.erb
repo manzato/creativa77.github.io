@@ -13,7 +13,7 @@ pageable: true
 <% page_articles.each_with_index do |article, index| %>
   <article>
     <h1>
-      <%= link_to article.title, article.path %></a>
+      <%= link_to article.title, article.path %>
       <small><%= article.date.strftime('%B %e, %Y') %></small>
     </h1>
     <% if index == 0 %>

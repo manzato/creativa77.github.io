@@ -1,0 +1,23 @@
+---
+title: Real-time transcription by non-expert captionist crowdsourcing
+date: 2015/01/01
+category: projects
+tags: Adobe Air, Adobe Media Server, Javascript, AJAX, LAMP Stack, Java
+---
+
+Scribe collects audio from a mobile device and schedules workers to perform
+captioning on small audio segments.
+
+
+The distributed captions are then merged into a single text, returning a
+consolidated transcript to the mobile user.
+
+We worked with <span class="label label-success"><%= link_to "Adobe Air", tag_path("Adobe Air") %></span> on the mobile
+client to stream audio to an
+<span class="label label-success"><%= link_to "Adobe Media Server", tag_path("Adobe Media Server") %></span> and with
+<span class="label label-success"><%= link_to "Javascript", tag_path("Javascript") %></span> and
+<span class="label label-success"><%= link_to "AJAX", tag_path("AJAX") %></span> in the front-end
+worker application. Back-end development included creating diagnostic and
+debugging tools in a <span class="label label-success"><%= link_to "LAMP Stack", tag_path("LAMP Stack") %></span> as
+well as integrating with the <span class="label label-success"><%= link_to "Java", tag_path("Java") %></span>
+process in charge of merging the distributed transcriptions.

@@ -44,10 +44,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-
   margin: 1.75em 0 2em;
 }
 
+
+.label {
+  a, a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: $white;
+  }
+}
 header.navbar {
   $logo-height: 55px;
 
