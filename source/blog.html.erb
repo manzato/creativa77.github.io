@@ -1,19 +1,37 @@
 ---
 title: Blog
 layout: page
+pageable: true
 ---
 
 <h1>Blog</h1>
 
-<% blog.articles[0...5].each do |article| %>
+<%
+  # We could do more complex paginations in future
+  # https://forum.middlemanapp.com/t/pagination-within-a-multiblog-environment-for-a-specific-blog/1114
+%>
+<% page_articles.each_with_index do |article, index| %>
   <article>
     <h1>
       <%= link_to article.title, article.path %></a>
       <small><%= article.date.strftime('%B %e, %Y') %></small>
     </h1>
-
-    <p><%= article.summary %></p>
-
-    <p><%= link_to "Read more &#8594;", article.path %></p>
+    <% if index == 0 %>
+      <p><%= article.body %></p>
+    <% else %>
+      <p><%= article.summary %></p>
+      <p><%= link_to "Read more &#8594;", article.path %></p>
+    <% end %>
   </article>
+<% end %>
+
+<% if paginate %>
+  <div class="article pagination">
+    <% if prev_page %>
+      <a class="prev" href="<%= prev_page.url %>">Older articles</a>
+    <% end %>
+    <% if next_page %>
+      <a class="next" href="<%= next_page.url %>">Newer articles</a>
+    <% end %>
+  </div>
 <% end %>
