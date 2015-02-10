@@ -13,12 +13,61 @@
   padding: 40px 0;
   margin-bottom: 30px;
   text-align: center;
+
+  .workExample {
+    position: relative;
+    box-shadow: 0px 2px 8px -2px $black;
+    background: image-url("earth.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 20px;
+
+    .heading {
+      color: $white;
+      box-sizing: content-box;
+      padding: 200px 20px 0;
+      height: 100px;
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      text-shadow: 1px 1px 1px  $black;
+    }
+
+    &:before {
+      position: absolute;
+      opacity: 0.3;
+      content: '';
+      background: linear-gradient(120deg,$purple-light, transparent),
+      linear-gradient(180deg,transparent, black);
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      transition: opacity 500ms;
+    }
+
+    &:hover::before {
+      opacity: 0.1;
+    }
+  }
+
+
+  .col-sm-3:nth-child(2) .workExample {
+    background-image: image-url("keyboard.jpg");
+  }
+
+  .col-sm-3:nth-child(3) .workExample {
+    background-image: image-url("webrobotics.jpg");
+    background-position: bottom left;
+  }
+
+  .col-sm-3:nth-child(4) .workExample {
+    background-image: image-url("tablet.jpg");
+  }
 }
 
-.work .thumbnail {
-  margin-top: 20px;
-  min-height: 450px;
-}
 
 .clients {
   background: $gray;
@@ -30,9 +79,8 @@
     margin: 0;
     line-height: 150px;
   }
-    img {
-      max-height: 40px;
-      max-width: 80%;
-    }
-
+  img {
+    max-height: 40px;
+    max-width: 80%;
+  }
 }
