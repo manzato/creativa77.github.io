@@ -52,7 +52,6 @@ activate :blog do |blog|
   blog.prefix = "blog"
   blog.layout = "blog_article"
   blog.permalink = "{year}/{month}/{day}/{title}.html"
-  blog.sources = "{title}.html"
   blog.paginate = true
   blog.page_link = "page:num"
   blog.per_page = 5
@@ -63,6 +62,7 @@ activate :blog do |blog|
   blog.prefix = "projects"
   blog.tag_template = "projects_tag.html"
   blog.permalink = "{title}.html"
+  blog.sources = "{title}.html"
   blog.layout = "project_detail"
 end
 
