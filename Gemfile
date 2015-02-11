@@ -1,30 +1,26 @@
 source "https://rubygems.org"
 
 # Core
-gem "middleman", "3.3.7"
+gem "middleman"
+gem "middleman-livereload"
+gem "oj"
 
 # Blogging
 gem "middleman-blog"
 gem "nokogiri"
 
-# Assets
+# Asset Pipeline Gems
 gem "bootstrap-sass", "~> 3.3.3", require: false
-gem "font-awesome-middleman", "~> 4.2.3"
-gem "middleman-favicon-maker", "~> 3.7"
+gem "font-awesome-middleman"
+gem "middleman-favicon-maker"
+gem "middleman-jquery"
+gem "builder"
+gem "middleman-sitemap"
 
 # Templating
-gem "slim", "~> 3.0.1"
-gem "middleman-autoprefixer", "~> 2.4.0"
-
-# Optimization & minification
-gem "middleman-jquery", "~> 2.1.1"
-gem "middleman-minify-html", "~> 3.4.0"
-gem "middleman-imageoptim", "~> 0.2.0"
-gem "builder", "~> 3.2.2"
-gem "middleman-sitemap", "~> 0.0.13"
-
-gem "middleman-livereload", "~> 3.4.2"
-gem "oj", "~> 2.11.1"
+gem "redcarpet"
+gem "sass"
+gem "middleman-autoprefixer"
 
 # Deploy
-gem 'middleman-deploy', '~> 1.0'
+gem "middleman-deploy"
