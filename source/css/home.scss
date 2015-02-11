@@ -9,6 +9,37 @@
   background: $blue;
 }
 
+.carousel-indicators {
+  width: auto;
+  margin-left: $grid-gutter-width;
+  left: 0;
+}
+
+.carousel-caption {
+  width: 50%;
+  margin-left: $grid-gutter-width;
+  left: 0;
+  right: auto;
+  text-align: left;
+  color: $white;
+
+  h3 {
+    color: $white;
+    font-size: 3em;
+    @media screen and (max-width: $screen-sm-min) {
+      font-size: 2em;
+    }
+  }
+
+  p {
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    @media screen and (max-width: $screen-sm-min) {
+      font-size: 1em;
+    }
+  }
+}
+
 .work {
   padding: 40px 0;
   margin-bottom: 30px;

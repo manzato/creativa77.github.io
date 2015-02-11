@@ -5,41 +5,29 @@ priority: 1
 
 <div class="home-header">
   <div class="container">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-home" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-home" data-slide-to="1"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <%= image_tag("carousel/1.jpg", :alt => "drone") %>
+          <%= image_tag("carousel/1.jpg", :height => "100") %>
           <div class="carousel-caption">
-            <h3>Attitude</h3>
-            <p>A-T-T-I-T-U-D-E</p>
+            <h3>Smart, motivated developers for your business</h3>
           </div>
         </div>
         <div class="item">
-          <%= image_tag("carousel/2.jpg", :alt => "drone") %>
+          <%= image_tag("carousel/2.jpg", :height => "100") %>
           <div class="carousel-caption">
-            <h3>Drones</h3>
-            <p>Yes we got that</p>
+            <h3>Robots &amp; Drones</h3>
+            <p>We are working with World's leading companies.</p>
           </div>
         </div>
-
       </div>
-
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   </div>
 </div>
