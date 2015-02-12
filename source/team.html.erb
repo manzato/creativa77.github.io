@@ -1,136 +1,17 @@
 ---
 title: Team
 meta_description: Ekumen team
+blog: team
 layout: page
 ---
 
 <h1>Meet the team</h1>
 
-<p>We are wonderful people.</p>
+<%= image_tag("team/everybody.jpg", :alt => "Ekumen team",
+  :class => "img-responsive") %>
 
-
-<div class="person clearfix">
-  <%= image_tag("team/juli.jpg", :alt => "Julian",
-    :class => "pull-left") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-  <div class="links">
-    <i class="fa fa-linkedin-square"></i>
-    <i class="fa fa-twitter-square"></i>
-    <i class="fa fa-facebook-square"></i>
-    <i class="fa fa-github-square"></i>
+<% blog.articles.reverse_each do |teammate| %>
+  <div class="person-container clearfix">
+    <%= teammate.body %>
   </div>
-</div>
-</div>
-
-
-<div class="person clearfix">
-  <%= image_tag("team/gui.jpg", :alt => "Guillermo",
-    :class => "pull-right") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-  <div class="links">
-    <i class="fa fa-linkedin-square"></i>
-    <i class="fa fa-twitter-square"></i>
-    <i class="fa fa-facebook-square"></i>
-    <i class="fa fa-github-square"></i>
-  </div>
-</div>
-</div>
-
-
-<div class="person clearfix">
-  <%= image_tag("team/ashi.jpg", :alt => "Ayelén",
-    :class => "pull-left") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-  <div class="links">
-    <i class="fa fa-linkedin-square"></i>
-    <i class="fa fa-twitter-square"></i>
-    <i class="fa fa-facebook-square"></i>
-    <i class="fa fa-github-square"></i>
-  </div>
-</div>
-</div>
-
-
-<div class="person clearfix">
-  <%= image_tag("team/lu.jpg", :alt => "Lucas",
-    :class => "pull-right") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-  <div class="links">
-    <i class="fa fa-linkedin-square"></i>
-    <i class="fa fa-twitter-square"></i>
-    <i class="fa fa-facebook-square"></i>
-    <i class="fa fa-github-square"></i>
-  </div>
-</div>
-</div>
-
-
-<div class="person clearfix">
-  <%= image_tag("team/ivan.jpg", :alt => "Ivan",
-    :class => "pull-left") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-  <div class="links">
-    <i class="fa fa-linkedin-square"></i>
-    <i class="fa fa-twitter-square"></i>
-    <i class="fa fa-facebook-square"></i>
-    <i class="fa fa-github-square"></i>
-  </div>
-</div>
-</div>
-
-<div class="person clearfix">
-  <%= image_tag("team/gary.jpg", :alt => "Gary",
-    :class => "pull-right") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-
-    <div class="links">
-      <i class="fa fa-linkedin-square"></i>
-      <i class="fa fa-twitter-square"></i>
-      <i class="fa fa-facebook-square"></i>
-      <i class="fa fa-github-square"></i>
-    </div>
-  </div>
-
-</div>
-
-
-<div class="person clearfix">
-  <%= image_tag("team/santi.jpg", :alt => "Santi",
-    :class => "pull-left") %>
-  <div class="desc">
-    <h4>Person name</h4>
-    <p>Julian is the founder of Creativa 77. Throughout his 15+ years of experience he has led many challenging, first-of-their-kind software projects to successful completion.</p>
-
-    <p>Despite being a successful manager and businessman, Julian's true passion lies is software development and working with technology in general. In his free time, he likes rollerblading, longboarding, biking and working on side projects such as scratch-building R/C airplanes, quadcopters, 3D printers, and HTPCs.</p>
-    <div class="links">
-      <i class="fa fa-linkedin-square"></i>
-      <i class="fa fa-twitter-square"></i>
-      <i class="fa fa-facebook-square"></i>
-      <i class="fa fa-github-square"></i>
-    </div>
-  </div>
-</div>
+<% end %>

@@ -54,6 +54,13 @@ activate :blog do |blog|
   blog.layout = "project_detail"
 end
 
+activate :blog do |blog|
+  blog.name = "team"
+  blog.prefix = "team"
+  blog.permalink = "{title}.html"
+  blog.sources = "{title}.html"
+end
+
 # Reload the browser automatically whenever files change
 activate :livereload
 

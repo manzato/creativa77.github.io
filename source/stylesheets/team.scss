@@ -2,15 +2,21 @@
 @import "bootstrap/variables";
 
 .team .content {
-  .person {
-    margin-bottom: $grid-gutter-width;
-    h4 {
-      margin-top: 0;
+  .person-container {
+    margin: $grid-gutter-width 0;
+
+    .person-name {
+      margin-top: $grid-gutter-width/4;
     }
-    img {
-      margin: 0 10px;
-      width: 120px;
-      border-radius: 3px;
+
+    .person-bio {
+      font-size: 14px;
+      word-break: break-word;
+    }
+
+    .person-picture {
+      margin-right: $grid-gutter-width;
+      width: 200px;
     }
   }
 }
