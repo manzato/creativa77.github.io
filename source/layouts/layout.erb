@@ -53,8 +53,8 @@
       </div>
     </footer>
     <%= javascript_include_tag "base.js", "bootstrap-includes.js", "main.js" %>
-    <% current_page.data.extrajs.each do |jsfile|%>
+    <% current_page.data.js.each do |jsfile|%>
         <%= javascript_include_tag jsfile %>
-    <% end if current_page.data.extrajs %>
+    <% end if current_page.data.js %>
   </body>
 </html>
