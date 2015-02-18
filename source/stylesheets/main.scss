@@ -29,6 +29,10 @@
  * @media screen and (min-width: $screen-lg-min) {}
 */
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-family: "Open Sans", "Segoe UI", "lucida grande", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
   line-height: 1.6;
