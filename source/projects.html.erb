@@ -13,10 +13,11 @@ js:
       <% blog.articles.select{|article| article.data.category == 'projects'}.each do |project| %>
         <section id="<%= project.slug %>">
           <h2>
-            <%= project.title %>
+            <%= link_to project.title, project.path %>
           </h2>
 
-          <%= project.body %>
+          <p><%= project.summary %></p>
+          <p><%= link_to "Read more &#8594;", project.path %></p>
         </section>
       <% end %>
     </article>
@@ -26,10 +27,11 @@ js:
         <% blog.articles.select{|article| article.data.category == 'labs'}.each do |project| %>
         <section id="<%= project.slug %>">
           <h2>
-            <%= project.title %>
+            <%= link_to project.title, project.path %>
           </h2>
 
-          <%= project.body %>
+          <p><%= project.summary %></p>
+          <p><%= link_to "Read more &#8594;", project.path %></p>
         </section>
       <% end %>
     </article>
