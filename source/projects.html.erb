@@ -46,7 +46,7 @@ extrajs:
     <nav class="projects-sidebar hidden-xs hidden-sm affix-nav" data-spy="affix" data-offset-top="100" data-offset-bottom="200">
       <ul class="nav">
         <li>
-          <a href="#projects">Projects</a>
+          <h4>Projects</h4>
           <ul class="nav">
             <% blog.articles.select{|article| article.data.category == 'projects'}.each do |project| %>
               <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
@@ -56,7 +56,7 @@ extrajs:
       </ul>
       <ul class="nav">
         <li>
-          <a href="#labs">Lab</a>
+          <h4>Lab</h4>
           <ul class="nav">
             <% blog.articles.select{|article| article.data.category == 'labs'}.each do |project| %>
               <li><a href="#<%= project.slug %>"><%= project.title %></a></li>

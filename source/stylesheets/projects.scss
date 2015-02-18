@@ -1,12 +1,19 @@
 .projects {
-  .active > a {
-    font-weight: bold;
-  }
   .affix {
     top: 0;
   }
 
   .affix-bottom {
     position: absolute;
+  }
+
+  .projects-sidebar {
+    .active > a {
+      font-weight: bold;
+    }
+
+    .nav {
+      width: $grid-gutter-width * 8;
+    }
   }
 }
