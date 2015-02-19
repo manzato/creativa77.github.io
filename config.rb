@@ -69,6 +69,10 @@ activate :livereload
 # ========================================================================
 
 helpers do
+  def tag_link(tag_name)
+    '<span class="label label-info">' + link_to(tag_name, tag_path(tag_name)) + '</span>'
+  end
+
   def nav_link_to(link, url, opts={})
     current_url = current_resource.url
     if current_url == url_for(url) || current_url == url_for(url) + "/" ||
@@ -77,7 +81,7 @@ helpers do
     else
       prefix = '<li>'
     end
-    prefix + link_to(link, url, opts) + "</li>"
+    prefix + link_to(link, url, opts) + '</li>'
   end
 end
 
