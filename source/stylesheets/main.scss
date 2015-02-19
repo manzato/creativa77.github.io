@@ -55,10 +55,11 @@ p {
 
 .label {
   a, a:link, a:visited, a:hover, a:active {
-    text-decoration: underline;
+    text-decoration: none;
     color: $white;
   }
 }
+
 header.navbar {
   $logo-height: 55px;
 

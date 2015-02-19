@@ -38,8 +38,17 @@ js:
 
     <h1>Tag cloud</h1>
     <div class="tag-cloud">
+      <%
+        # find the tag with most articles to compare with others
+        $max_projects = 0
+
+        blog.tags.each do |tag, articles|
+          $max_projects = articles.count if articles.count > $max_projects
+        end
+      %>
       <% blog.tags.each do |tag, articles| %>
-        <span class="label label-success"><%= link_to tag, tag_path(tag) %></span>
+        <span class="label label-info" style="background: rgba(73, 169, 222,<%= Math.sqrt(articles.count / $max_projects.to_f)%>)">
+          <%= link_to "#{tag} (#{articles.count})", tag_path(tag) %></span>
       <% end %>
     </div>
   </div>
