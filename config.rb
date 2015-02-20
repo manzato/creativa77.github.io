@@ -4,7 +4,7 @@
 
 set :site_title,            "Ekumen"
 set :site_description,      "We are people from different parts of the planet to build technology for the world."
-set :site_url_production,   "http://creativa77.github.io/ekumenlabs.com/"
+set :site_url_production,   "http://www.ekumenlabs.com"
 set :site_url_development,  "http://localhost:4567/"
 set :partials_dir,          '_partials'
 set :relative_links,        true
