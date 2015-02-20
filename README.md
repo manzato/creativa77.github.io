@@ -16,9 +16,18 @@ source ~/.rvm/scripts/rvm # Get the rvm command
 rvm list # Rvm installed Ruby 2.2.0, so I'm going to set that as default
 rvm --default use 2.2.0 # To get ruby 2.2.0 when opening a new terminal
 ```
-## Install [middleman](https://middlemanapp.com/)
 
-`gem install middleman`
+## Install nodejs
+
+sudo apt-get install nodejs nodejs-legacy
+
+## Install Bundler (it's Ruby's version of npm)
+
+`gem install bundler`
+
+## And then project dependencies
+
+`bundle install`
 
 ## Contributing
 
