@@ -6,8 +6,11 @@
 }
 
 .home-header {
-  background: $blue;
   position: relative;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  margin: auto;
 }
 
 .scroll-down, .scroll-down:hover, .scroll-down:active, .scroll-down:visited {
@@ -34,32 +37,75 @@
 }
 
 .carousel-indicators {
-  width: auto;
-  margin-left: $grid-gutter-width;
-  left: 0;
+  // This width is only used in devices < 768px
+  width: 100%;
+
+  // Small devices (tablets, 768px and up)
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+
+  // Medium devices (desktops, 992px and up)
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+
+  left: 50%;
+  right: auto;
+  margin: 0;
+  transform: translateX(-50%);
+  padding: $padding-large-vertical $grid-gutter-width / 2;
+  text-align: left;
+  bottom: 0;
 }
 
 .carousel-caption {
-  width: 50%;
-  margin-left: $grid-gutter-width;
-  left: 0;
+  // This width is only used in devices < 768px
+  width: 100%;
+
+  // Small devices (tablets, 768px and up)
+  @media (min-width: $screen-sm-min) {
+    width: $container-sm;
+  }
+
+  // Medium devices (desktops, 992px and up)
+  @media (min-width: $screen-md-min) {
+    width: $container-md;
+  }
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
+    width: $container-lg;
+  }
+
+  left: 50%;
   right: auto;
+  transform: translateX(-50%);
+  padding: 0 $grid-gutter-width / 2;
   text-align: left;
   color: $white;
 
   h3 {
     color: $white;
     font-size: 3em;
-    @media screen and (max-width: $screen-sm-min) {
-      font-size: 2em;
+
+    @media (max-width: $screen-sm-min) {
+      font-size: 1em;
+      font-size: 5vw;
     }
   }
 
   p {
     margin-top: 0.3em;
     font-size: 1.5em;
-    @media screen and (max-width: $screen-sm-min) {
-      font-size: 1em;
+    @media (max-width: $screen-sm-min) {
+      font-size: 0.8em;
+      font-size: 3vw;
     }
   }
 }

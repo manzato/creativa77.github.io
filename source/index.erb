@@ -4,32 +4,31 @@ priority: 1
 ---
 
 <div class="home-header">
-  <div class="container">
-    <div id="carousel-home" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-home" data-slide-to="1"></li>
-      </ol>
+  <div id="carousel-home" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-home" data-slide-to="1"></li>
+    </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <%= image_tag("carousel/1.jpg", :alt => "Smart, motivated developers for your business") %>
-          <div class="carousel-caption">
-            <h3>Smart, motivated developers for your business</h3>
-          </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag("carousel/1.jpg", :alt => "Smart, motivated developers for your business") %>
+        <div class="carousel-caption">
+          <h3>Smart, motivated<br/> developers for your<br/> business</h3>
         </div>
-        <div class="item">
-          <%= image_tag("carousel/2.jpg", :alt => "Robots &amp; Drones") %>
-          <div class="carousel-caption">
-            <h3>Robots &amp; Drones</h3>
-            <p>We are working with World's leading companies.</p>
-          </div>
+      </div>
+      <div class="item">
+        <%= image_tag("carousel/2.jpg", :alt => "Robots &amp; Drones") %>
+        <div class="carousel-caption">
+          <h3>Robots &amp; Drones</h3>
+          <p>We are working with World's leading companies.</p>
         </div>
       </div>
     </div>
   </div>
+
   <a href="#our-work" class="scroll-down">
     <i class="fa fa-angle-down"></i>
   </a>
