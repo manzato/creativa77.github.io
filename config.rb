@@ -107,6 +107,7 @@ configure :build do
 
   # Ignore files/dir during build process
   ignore "favicon_template.png"
+  ignore "README.md"
 
   # Favicon generator
   # Edit favicon_template.png for custom icon
@@ -116,6 +117,13 @@ configure :build do
   #     { icon: "favicon.ico", size: "32x32" }
   #   ]
   # }
+end
+
+after_build do |builder|
+  src = File.join(config[:source],"README.md")
+  dst = File.join(config[:build_dir],"README.md")
+  builder.source_paths << File.dirname(__FILE__)
+  builder.copy_file(src,dst)
 end
 
 # ========================================================================
