@@ -9,21 +9,34 @@ priority: 1
     <ol class="carousel-indicators">
       <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
       <li data-target="#carousel-home" data-slide-to="1"></li>
+      <li data-target="#carousel-home" data-slide-to="2"></li>
+      <li data-target="#carousel-home" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
+        <%= image_tag("carousel/5.jpg", :alt => "Smart, motivated developers for your business") %>
+        <div class="carousel-caption">
+          <h3>Top technical talent<br/>working to realize your vision</h3>
+        </div>
+      </div>
+      <div class="item">
+        <%= image_tag("carousel/6.jpg", :alt => "Smart, motivated developers for your business") %>
+        <div class="carousel-caption">
+          <h3>Lean development methodology<br/>honed in Silicon Valley</h3>
+        </div>
+      </div>
+      <div class="item">
         <%= image_tag("carousel/1.jpg", :alt => "Smart, motivated developers for your business") %>
         <div class="carousel-caption">
           <h3>Smart, motivated<br/> developers for your<br/> business</h3>
         </div>
       </div>
       <div class="item">
-        <%= image_tag("carousel/2.jpg", :alt => "Robots &amp; Drones") %>
+        <%= image_tag("carousel/7.jpg", :alt => "Robots &amp; Drones") %>
         <div class="carousel-caption">
-          <h3>Robots &amp; Drones</h3>
-          <p>We are working with World's leading companies.</p>
+          <h3>Deep expertise<br/>in emerging tech<br/>helps you leap ahead</h3>
         </div>
       </div>
     </div>
