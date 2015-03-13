@@ -1,0 +1,12 @@
+.projects .affix {
+  top: 0;
+}
+.projects .affix-bottom {
+  position: absolute;
+}
+.projects .projects-sidebar .active > a {
+  font-weight: bold;
+}
+.projects .projects-sidebar .nav {
+  width: 240px;
+}
