@@ -178,13 +178,14 @@
 
 .clients {
   background: $gray;
-  line-height: 150px;
+  line-height: 100px;
   text-align: center;
   margin-bottom: -2em;
 
   .heading {
+    text-align: center;
     margin: 0;
-    line-height: 150px;
+    line-height: 60px;
   }
   img {
     max-height: 40px;
