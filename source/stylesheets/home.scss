@@ -115,52 +115,63 @@
   margin-bottom: 30px;
   text-align: center;
 
-  @media (min-width: $screen-lg-min) {
-    .work-item {
-      background-size: auto 134px;
-      background-repeat: no-repeat;
-      margin-bottom: 40px;
+  .work-panel, .work-panel:active, .work-panel:visited, .work-panel:hover {
+    position: relative;
+    display: block;
+    box-shadow: 0px 2px 8px -2px $black;
+    background: $gray no-repeat center center;
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 20px;
+    min-height: 350px;
+    text-decoration: none;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
+    .heading {
+      color: $white;
+      box-sizing: content-box;
+      padding: 220px 20px 20px 20px;
+      position: relative;
+      word-break: break-word;
+      z-index: 2;
+      text-align: center;
+      text-shadow: 1px 1px 1px  $black;
     }
 
-    .work-item:nth-child(even) {
-      text-align: left;
-      background-position: center right;
-      padding-right: 300px;
+    &:before {
+      position: absolute;
+      opacity: 0.3;
+      content: '';
+      background: linear-gradient(120deg, $purple-light, transparent),
+      linear-gradient(180deg,transparent, black);
+      display: block;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      transition: opacity 500ms;
     }
 
-    .work-item:nth-child(odd) {
-      text-align: right;
-      background-position: center left;
-      padding-left: 300px;
+    &:hover::before {
+      opacity: 0.1;
     }
+  }
 
-    .work-item:nth-child(1) {
-      background-image: linear-gradient(90deg, transparent 0, white 300px), image-url("earth.jpg");
-    }
+  .work-panel.work-real-time {
+    background-image: image-url("earth.jpg")
+  }
 
-    .work-item:nth-child(2) {
-      background-image: linear-gradient(-90deg,  transparent 0, white 300px), image-url("keyboard.jpg");
-    }
+  .work-panel.work-simple {
+    background-image: image-url("keyboard.jpg");
+  }
 
-    .work-item:nth-child(3) {
-      background-image: linear-gradient(90deg, transparent 0, white 300px), image-url("tablet.jpg");
-    }
+  .work-panel.work-robotics {
+    background-image: image-url("webrobotics.jpg");
+    background-position: bottom left;
+  }
 
-    .work-item:nth-child(4) {
-      background-image: linear-gradient(-90deg, transparent 0, white 300px), image-url("webrobotics.jpg");
-    }
-
-    .work-item:nth-child(5) {
-      background-image: linear-gradient(90deg, transparent 0, white 300px), image-url("earth.jpg");
-    }
-
-    .work-item:nth-child(6) {
-      background-image: linear-gradient(-90deg,  transparent 0, white 300px), image-url("keyboard.jpg");
-    }
+  .work-panel.work-android {
+    background-image: image-url("tablet.jpg");
   }
 }
 
