@@ -8331,13 +8331,14 @@ button.close {
 
 .clients {
   background: #dfdfdf;
-  line-height: 150px;
+  line-height: 100px;
   text-align: center;
   margin-bottom: -2em;
 }
 .clients .heading {
+  text-align: center;
   margin: 0;
-  line-height: 150px;
+  line-height: 60px;
 }
 .clients img {
   max-height: 40px;
