@@ -134,7 +134,7 @@
       word-break: break-word;
       z-index: 2;
       text-align: center;
-      text-shadow: 1px 1px 1px  $black;
+      text-shadow: 2px 2px 1px  $black;
     }
 
     &:before {
@@ -155,26 +155,78 @@
     &:hover::before {
       opacity: 0.1;
     }
+
   }
 
   .work-panel.work-real-time {
-    background-image: image-url("earth.jpg")
+    background-image: image-url("earth2.jpg");
   }
 
   .work-panel.work-simple {
-    background-image: image-url("keyboard.jpg");
+    background-image: image-url("phone.jpg");
   }
 
   .work-panel.work-robotics {
-    background-image: image-url("webrobotics.jpg");
-    background-position: bottom left;
+    background-image: image-url("robotics.jpg");
+    background-position: right;
   }
 
   .work-panel.work-android {
-    background-image: image-url("tablet.jpg");
+    background-image: image-url("drone.jpg");
+    background-position: top right;
+  }
+
+  .area {
+    display: none;
+    width: 1220px;
+    height: 539px;
+    background-color: $gray;
+    border-radius: 2px;
+    box-shadow: 2px 2px 7px $black;
+    margin: 9px 30px;
+    padding: 0px 10px 40px 10px;
+
+    img, img:hover {
+      box-shadow: 2px 2px 8px $black;
+      max-width: 100%;
+    }
+
+    #content {
+      text-align: justify;
+    }
+    h2 {
+      color:#49A9DE;
+      font-size: 2.3em;
+      padding: 0px 0px 0px 100px;
+    }
+    p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 1px  $purple-light;
+      text-indent: 30px;
+    }
+    #close {
+      color: $white;
+      font-size: 1.7em;
+      text-shadow: 2px 2px 4px  $black;
+      text-align: right;
+      cursor:pointer;
+      margin-top: -0px;
+      margin-right: -20px;
+      }
+
+    #close:active {
+      text-shadow: 0px 0px 0px  $purple-light;
+    }
+
+    a {
+      background-color: #49A9DE;
+    }
+    .label {
+      margin: 5px;
+      float: right;
+    }
   }
 }
-
 
 .clients {
   background: $gray;
