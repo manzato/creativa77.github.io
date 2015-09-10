@@ -3,8 +3,33 @@ $(".work-panel.work-robotics").click(function(){
 $('#small').hide();$('#area1').show();;
 return false;
 });
-$('#close').click(function(){
+$(".work-panel.work-real-time").click(function(){
+$('#small').hide();$('#area2').show();;
+return false;
+});
+$(".work-panel.work-android").click(function(){
+$('#small').hide();$('#area3').show();;
+return false;
+});
+$(".work-panel.work-simple").click(function(){
+$('#small').hide();$('#area4').show();;
+return false;
+});
+
+$('#close1').click(function(){
 $('#small').show();$('#area1').hide();;
+return false;
+});
+$('#close2').click(function(){
+$('#small').show();$('#area2').hide();;
+return false;
+});
+$('#close3').click(function(){
+$('#small').show();$('#area3').hide();;
+return false;
+});
+$('#close4').click(function(){
+$('#small').show();$('#area4').hide();;
 return false;
 });
 
