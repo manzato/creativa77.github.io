@@ -1,18 +1,38 @@
 $(function() {
 $(".work-panel.work-robotics").click(function(){
 $('#small').hide();$('#area1').show();;
-return false;
+if($(window).width() >= 992) {
+$("html, body").animate({ scrollTop: 550 }, "slow");
+} else {
+$("html, body").animate({ scrollTop: 250 }, "slow");
+}
+  return false;
 });
 $(".work-panel.work-real-time").click(function(){
 $('#small').hide();$('#area2').show();;
+if($(window).width() >= 992) {
+$("html, body").animate({ scrollTop: 550 }, "slow");
+} else {
+$("html, body").animate({ scrollTop: 250 }, "slow");
+}
 return false;
 });
 $(".work-panel.work-android").click(function(){
 $('#small').hide();$('#area3').show();;
+if($(window).width() >= 992) {
+$("html, body").animate({ scrollTop: 550 }, "slow");
+} else {
+$("html, body").animate({ scrollTop: 250 }, "slow");
+}
 return false;
 });
 $(".work-panel.work-simple").click(function(){
 $('#small').hide();$('#area4').show();;
+if($(window).width() >= 992) {
+$("html, body").animate({ scrollTop: 550 }, "slow");
+} else {
+$("html, body").animate({ scrollTop: 250 }, "slow");
+}
 return false;
 });
 

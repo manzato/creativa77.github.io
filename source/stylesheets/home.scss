@@ -2,7 +2,7 @@
 @import "bootstrap/variables";
 
 .container.main {
-  min-height: calc(90vh - #{$navbar-height} - 1px);
+  min-height: calc(90vh - #{$navbar-height});
 }
 
 .home-header {
@@ -177,72 +177,127 @@
   }
 
   .area {
+    width: 90%;
     display: none;
-    width: 1150px;
-    height: 539px;
     background-color: $gray;
-    border-radius: 2px;
-    box-shadow: 0px 2px 5px $black-light;
-    margin-top: 30px;
+    border-radius: 0.125em;
+    box-shadow: 0em 0.125em 0.313em $black-light;
+    margin-top: 1.875em;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: -12px;
+    margin-bottom: -0.750em;
+
 
     .close {
     display: block;
     position: relative;
     float: right;
-    width: 35px;
-    height: 35px;
-    top:-45px;
-    margin-bottom: 0px;
+    width: 1.9em;
+    height: 1.9em;
+    top:-2.25em;
+    margin-bottom: 0em;
     border-radius: 20%;
-    border: 1px solid $gray;
+    border: 0.05em solid $gray;
     background: #fff;
-    line-height: 32.5px;
+    line-height: 1.7em;
     color: $purple;
     text-align: center;
-    font-size: 20px;
-    box-shadow: 0px 2px 4px $black-light;
+    font-size: 22px;
+    box-shadow: 0em 0.1em 0.2em $black-light;
     transition: line-height 180ms ease;
     &:hover {
-      line-height: 35px;
+      line-height: 1.9em;
       }
     cursor:pointer;
+
+// Extra Small devices (< 768px)
+  @media (max-width: $screen-xs-max) {
+      margin-right: 0em;
+    }
+
+// Small devices (tablets, 768px and up)
+  @media (min-width: $screen-sm-min) {
+      margin-right: 0em;
+  }
+
+  // Medium devices (desktops, 992px and up)
+  @media (min-width: $screen-md-min) {
+      margin-right: 1em;
+  }
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
+      margin-right: -1.2em;
+      }
     }
 
     h1 {
    position: relative; 
       color: $purple;
-      margin-top: -40px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.4em;
       z-index: 1;
     }
 
     #crop {
-      width: 1000px;
-      height: 350px;
-    border-radius: 3px;
+      possition: relative;
+      max-width: 64.5em;
+      max-height: 21em;
+      border-radius: 0.188em;
       overflow: hidden;
-      margin-top: -16px;
+      margin-top: -1em;
+      margin-bottom: -0.625em;
+      box-shadow: 0em 125em 0.313em $black;
+
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
       margin-right: auto;
       margin-left: auto;
-      margin-bottom: -10px;
-      box-shadow: 0px 2px 5px $black;
+      }
     }
 
     img, img:hover {
-      position: relative; 
-      display: block;
-      width: 1000px;
-      margin-top: -210px;
-      z-index: 0;
+
+    	width: 100%;
+    max-width: 64.5em;
+    margin-top: -15%;
+    position: relative; 
+    display: block;
+    vertical-align: middle;
     }
 
     p.content {
       color: $black;
       text-indent: 1.25em;
       text-align: justify;
+
+// Extra Small devices (< 768px)
+  @media (max-width: $screen-xs-max) {	
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+
+// Small devices (tablets, 768px and up)
+  @media (min-width: $screen-sm-min) {
+      margin-left: 0em;
+      margin-right: 0em;
+  }
+
+  // Medium devices (desktops, 992px and up)
+  @media (min-width: $screen-md-min) {
+      margin-left: 0em;
+      margin-right: 0em;
+      }
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
       margin-left: 4.5em;
+      margin-right: 1em;
+ }
+
     }
 
     a {
@@ -251,7 +306,30 @@
 
     .tags {
       padding: 32px 20px 20px 20px;
+// Extra Small devices (< 768px)
+  @media (max-width: $screen-xs-max) {
+      margin-right: -1.3em;
+      margin-bottom: 2em;
+      margin-top: -2em;
+    }
+
+// Small devices (tablets, 768px and up)
+  @media (min-width: $screen-sm-min) {
+      margin-right: 0em;
+      margin-left: 12.6em;
+  }
+
+  // Medium devices (desktops, 992px and up)
+  @media (min-width: $screen-md-min) {
+      margin-right: 0em;
+      margin-left: 17em;
+  }
+
+  // Large devices (large desktops, 1200px and up)
+  @media (min-width: $screen-lg-min) {
       margin-right: 3em;
+      margin-left: 0em;
+      }
     }
 
     .label {
