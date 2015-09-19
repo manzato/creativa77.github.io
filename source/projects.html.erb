@@ -10,7 +10,7 @@ js:
   <div class="col-md-9">
     <article id="projects">
       <h1>Projects</h1>
-      <% blog.articles.select{|article| article.data.category == 'projects'}.each do |project| %>
+      <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'A'}.each do |project| %>
         <section id="<%= project.slug %>">
           <h2>
             <%= link_to project.title, project.path %>
@@ -20,11 +20,41 @@ js:
           <p><%= link_to "Read more &#8594;", project.path %></p>
         </section>
       <% end %>
-    </article>
 
-    <article id="labs">
-      <h1>Lab</h1>
-        <% blog.articles.select{|article| article.data.category == 'labs'}.each do |project| %>
+      <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'B'}.each do |project| %>
+        <section id="<%= project.slug %>">
+          <h2>
+            <%= link_to project.title, project.path %>
+          </h2>
+
+          <p><%= project.summary %></p>
+          <p><%= link_to "Read more &#8594;", project.path %></p>
+        </section>
+      <% end %>
+
+      <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'C'}.each do |project| %>
+        <section id="<%= project.slug %>">
+          <h2>
+            <%= link_to project.title, project.path %>
+          </h2>
+
+          <p><%= project.summary %></p>
+          <p><%= link_to "Read more &#8594;", project.path %></p>
+        </section>
+      <% end %>
+
+      <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'D'}.each do |project| %>
+        <section id="<%= project.slug %>">
+          <h2>
+            <%= link_to project.title, project.path %>
+          </h2>
+
+          <p><%= project.summary %></p>
+          <p><%= link_to "Read more &#8594;", project.path %></p>
+        </section>
+      <% end %>
+
+      <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'E'}.each do |project| %>
         <section id="<%= project.slug %>">
           <h2>
             <%= link_to project.title, project.path %>
@@ -59,17 +89,19 @@ js:
         <li>
           <h4>Projects</h4>
           <ul class="nav">
-            <% blog.articles.select{|article| article.data.category == 'projects'}.each do |project| %>
+            <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'A'}.each do |project| %>
               <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
             <% end %>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav">
-        <li>
-          <h4>Lab</h4>
-          <ul class="nav">
-            <% blog.articles.select{|article| article.data.category == 'labs'}.each do |project| %>
+            <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'B'}.each do |project| %>
+              <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
+            <% end %>
+            <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'C'}.each do |project| %>
+              <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
+            <% end %>
+            <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'D'}.each do |project| %>
+              <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
+            <% end %>
+            <% blog.articles.select{|article| article.data.category == 'projects' && article.data.line == 'E'}.each do |project| %>
               <li><a href="#<%= project.slug %>"><%= project.title %></a></li>
             <% end %>
           </ul>
