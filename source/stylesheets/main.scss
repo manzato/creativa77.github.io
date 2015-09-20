@@ -49,8 +49,11 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-p {
-  margin: 1.75em 0 2em;
+p:first-child {
+  margin-top: 1.75em;
+}
+p:last-child {
+  margin-bottom: 2em;
 }
 
 .label {
