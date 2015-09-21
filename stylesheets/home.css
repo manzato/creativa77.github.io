@@ -176,6 +176,7 @@
 .work .area .close {
   display: block;
   position: relative;
+  opacity: 1;
   float: right;
   width: 1.9em;
   height: 1.9em;
@@ -230,8 +231,6 @@
   max-height: 21em;
   border-radius: 0.188em;
   overflow: hidden;
-  margin-top: -1em;
-  margin-bottom: -0.625em;
   box-shadow: 0em 125em 0.313em #333333;
 }
 @media (min-width: 1200px) {
