@@ -187,12 +187,39 @@
     margin-left: auto;
     margin-bottom: -0.750em;
 
+    .detail-bg-robotics {
+      background: url('/images/robotics.jpg');
+      background-size: cover;
+      background-position-y: 60%;
+      height: 20em;
+    }
+
+    .detail-bg-web {
+      background: url('/images/earth2.jpg');
+      background-size: cover;
+      background-position-y: 18%;
+      height: 20em;
+    }
+
+    .detail-bg-embedded {
+      background: url('/images/drone.jpg');
+      background-size: cover;
+      background-position-y: 60%;
+      height: 20em;
+    }
+
+    .detail-bg-user {
+      background: url('/images/phone.jpg');
+      background-size: cover;
+      background-position-y: 18%;
+      height: 20em;
+    }
 
     .close {
+      float: none;
     display: block;
     position: relative;
     opacity: 1;
-    float: right;
     width: 1.9em;
     height: 1.9em;
     top:-2.25em;
@@ -273,29 +300,29 @@
       text-indent: 1.25em;
       text-align: justify;
 
-// Extra Small devices (< 768px)
-  @media (max-width: $screen-xs-max) {	
-      margin-left: 0em;
-      margin-right: 0em;
-    }
+    // Extra Small devices (< 768px)
+      @media (max-width: $screen-xs-max) {	
+          margin-left: 1em;
+          margin-right: 1em;
+        }
 
-// Small devices (tablets, 768px and up)
-  @media (min-width: $screen-sm-min) {
-      margin-left: 0em;
-      margin-right: 0em;
-  }
-
-  // Medium devices (desktops, 992px and up)
-  @media (min-width: $screen-md-min) {
-      margin-left: 0em;
-      margin-right: 0em;
+    // Small devices (tablets, 768px and up)
+      @media (min-width: $screen-sm-min) {
+          margin-left: 1em;
+          margin-right: 0em;
       }
 
-  // Large devices (large desktops, 1200px and up)
-  @media (min-width: $screen-lg-min) {
-      margin-left: 4.5em;
-      margin-right: 1em;
- }
+      // Medium devices (desktops, 992px and up)
+      @media (min-width: $screen-md-min) {
+          margin-left: 2.25em;
+          margin-right: 0em;
+          }
+
+      // Large devices (large desktops, 1200px and up)
+      @media (min-width: $screen-lg-min) {
+          margin-left: 4.5em;
+          margin-right: 1em;
+     }
 
     }
 
@@ -305,6 +332,7 @@
 
     .tags {
       padding: 32px 20px 20px 20px;
+
 // Extra Small devices (< 768px)
   @media (max-width: $screen-xs-max) {
       margin-right: -1.3em;
