@@ -173,11 +173,35 @@
   margin-left: auto;
   margin-bottom: -0.750em;
 }
+.work .area .detail-bg-robotics {
+  background: url("/images/robotics.jpg");
+  background-size: cover;
+  background-position-y: 60%;
+  height: 20em;
+}
+.work .area .detail-bg-web {
+  background: url("/images/earth2.jpg");
+  background-size: cover;
+  background-position-y: 18%;
+  height: 20em;
+}
+.work .area .detail-bg-embedded {
+  background: url("/images/drone.jpg");
+  background-size: cover;
+  background-position-y: 60%;
+  height: 20em;
+}
+.work .area .detail-bg-user {
+  background: url("/images/phone.jpg");
+  background-size: cover;
+  background-position-y: 18%;
+  height: 20em;
+}
 .work .area .close {
+  float: none;
   display: block;
   position: relative;
   opacity: 1;
-  float: right;
   width: 1.9em;
   height: 1.9em;
   top: -2.25em;
@@ -254,19 +278,19 @@
 }
 @media (max-width: 767px) {
   .work .area p.content {
-    margin-left: 0em;
-    margin-right: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 @media (min-width: 768px) {
   .work .area p.content {
-    margin-left: 0em;
+    margin-left: 1em;
     margin-right: 0em;
   }
 }
 @media (min-width: 992px) {
   .work .area p.content {
-    margin-left: 0em;
+    margin-left: 2.25em;
     margin-right: 0em;
   }
 }
