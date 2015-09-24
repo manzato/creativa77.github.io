@@ -12,18 +12,18 @@ $('.contactInfo').on('affixed.bs.affix', function() {
 
 
 // Leaflet map setup
-var map = L.map('ekumenOfficeMap', {
-  center: [-34.58306, -58.44619],
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWt1bWVuIiwiYSI6ImNpZXZqcW9nejB4ejM5MW0zcnBsZmhoa3MifQ.Tjix9jwmkT-gGbD1g8OvBg';
+var map = new mapboxgl.Map({
+  container: 'ekumenOfficeMap',
+  style: 'mapbox://styles/mapbox/streets-v8',
+  center: [-58.44627857208252, -34.5830864007996],
   zoom: 12
 });
 
-L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  id: 'examples.map-i875mjb7',
-  attribution: "<small><a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></small>"
-}).addTo(map);
-map.attributionControl.setPrefix(false);
-
-L.marker([-34.58320, -58.44620]).addTo(map)
-.bindPopup('Ekumen Labs')
-.openPopup();
+var tooltip = new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false
+  })
+  .setLngLat([-58.44627857208252, -34.5830864007996])
+  .setHTML('<img src="/images/logo-small.png"/>')
+  .addTo(map);
