@@ -1,6 +1,13 @@
 @import "_variables";
 @import "bootstrap/variables";
 
+h2 a {
+color: $purple-light;
+}
+h2 a:hover {
+color: $purple;
+}
+
 .projects {
   .affix {
     top: 0;

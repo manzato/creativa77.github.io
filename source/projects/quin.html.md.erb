@@ -1,0 +1,27 @@
+---
+title: Autonomous Android-based vehicles
+date: 2015/01/01 00:00:02
+category: projects
+tags: Android, ROS internals, Java, Android NDK
+line: C
+---
+
+The aim of this project is to develop an autonomous robot system using
+[ROS](http://wiki.ros.org) that executes entirely on an Android device.
+
+
+We contributed to [ROS Java](http://wiki.ros.org/rosjava) by implementing a
+[base controller](https://github.com/creativa77/base_controller) from scratch,
+extend it to use the multiple radios instead of just WiFi and added the ability
+to create externally reachable masters in an <%= tag_link "Android" %> device.
+
+
+<!-- this string indicates where the article sohuld be cut -->
+READMORE
+
+
+After a first success with ground vehicles navigation we adapted the web interface 
+for flying drones, helped creating the communication system between the interface 
+and the drone and adapting the Pixhawk onboard computer project to that system.
+We also developed an autonomous mission teleoperation App (Android) for flying 
+vehicles with live video feed and waypoint support.
