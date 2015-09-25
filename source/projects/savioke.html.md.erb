@@ -1,23 +1,27 @@
 ---
-title: Inventing the next-generation user interfaces for autonomous robots
+title: Creating the next-generation autonomous service Robot
 date: 2015/01/01 00:00:03
 category: projects
-tags: Meteor, Javascript, Rosbridge, Robot Web Tools
+tags: Service Robots, Autonomous Navigation, Localization, ROS, MeteorJs, Elasticsearch
 line: A
 ---
 
-[Savioke](http://www.savioke.com/) mission is to develop affordable, usable
-robots for the services industry.
-
-
-At Ekumen we are helping Savioke to develop top-quality user experiences for
-robot control, including autonomous navigation and teleoperation. Our approach
-is based on web user interfaces using <%= tag_link "Meteor" %>,
-<%= tag_link "Javascript" %> and <%= tag_link "Rosbridge" %>.
-
+[Savioke](http://www.savioke.com/)'s mission is to develop affordable, usable 
+<%= tag_link "service robots" %> for the hospitality industry. Their aim is to 
+improve the lives of people by deploying autonomous robots in human environments 
+to help them with their daily tasks.
 
 <!-- this string indicates where the article sohuld be cut -->
-READMORE
+READMORE	
 
-
-JSON transport layer included in the <%= tag_link "Robot Web Tools" %> bundle.
+In the Ekumen we are working closely with Savioke, contributing to different 
+stages of their software stack. At a low level we are contributing to Relay’s 
+<%= tag_link "autonomous navigation" %> and <%= tag_link "localization" %> software, based on the open source 
+Robot Operating System (<%= tag_link "ROS" %>). These two components are a key part of the robot, as 
+it should be able to navigate autonomously in a constantly-changing environment, 
+while being careful with passing by people.
+At a higher level we have developed with Savioke’s web team a complete solution 
+to monitor and manage the fleet of distributed robot across different hotels. 
+This includes  integrating Javascript with ROS by means of roslibjs, a soft 
+real-time robot operations center based on <%= tag_link "MeteorJs" %> and data gathering and 
+analysis using <%= tag_link "Elasticsearch" %>.
