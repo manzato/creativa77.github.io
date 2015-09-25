@@ -2,301 +2,457 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.ekumenlabs.com/jobs/web/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/fer.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/lu.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/pablo.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/andy.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/juli.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/gary.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/gui.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/team/javi.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/blog/2014/03/12/less.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/blog/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/premise.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/aev.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/cp.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/osrf.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/cp2.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/drm.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/fellowrobots.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/transcript.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/savioke.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/streaming.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/willow.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/quin.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/yujin.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/airbrite.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tork.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/jobs/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/about-us/</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/android.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/ruby-on-rails.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/android-services.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/elasticsearch.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/google-places-api.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/scala.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/adobe-air.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/angularjs.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/adobe-media-server.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/uav.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/javascript.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/micro-air-vehicle.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/ajax.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/autonomous-navigation.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/lamp-stack.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/unmanned-vehicle.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/java.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/industry-automation.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/meteor.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/continuous-integration.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/rosbridge.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/robot-web-tools.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/amazon-cloud.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.ekumenlabs.com/projects/tags/hds-http-dynamic-streaming.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <loc>http://www.ekumenlabs.com/projects/tags/ros.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/python.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/multi-robot.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/inter-robot-communication.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/ros-on-android.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/java.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/drm.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/adobe-air.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/adobe-media-server.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/javascript.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/ajax.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/lamp-stack.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/service-robots.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/localization.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/meteorjs.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/amazon-cloud.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/hds.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/mongodb.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/system-integration.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/ember-js.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/web-sockets.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/robot-web-tools.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/ros-stack.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/kinematics-analysis.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/c.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/moveit.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/android.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/ros-internals.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/android-ndk.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/multi-robot.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/backbone-js.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/node-js.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/ruby.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.ekumenlabs.com/projects/tags/php.html</loc>
-    <lastmod>2015-09-22T00:00:00-03:00</lastmod>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.ekumenlabs.com/projects/tags/osr.html</loc>
+    <lastmod>2015-09-24T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

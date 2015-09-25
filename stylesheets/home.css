@@ -176,25 +176,25 @@
 .work .area .detail-bg-robotics {
   background: url("/images/robotics.jpg");
   background-size: cover;
-  background-position-y: 60%;
+  background-position: 0 60%;
   height: 20em;
 }
 .work .area .detail-bg-web {
   background: url("/images/earth2.jpg");
   background-size: cover;
-  background-position-y: 18%;
+  background-position: 0 18%;
   height: 20em;
 }
 .work .area .detail-bg-embedded {
   background: url("/images/drone.jpg");
   background-size: cover;
-  background-position-y: 60%;
+  background-position: 0 60%;
   height: 20em;
 }
 .work .area .detail-bg-user {
   background: url("/images/phone.jpg");
   background-size: cover;
-  background-position-y: 18%;
+  background-position: 0 18%;
   height: 20em;
 }
 .work .area .close {
@@ -304,36 +304,38 @@
   background-color: #49A9DE;
 }
 .work .area .tags {
-  padding: 32px 20px 20px 20px;
+  margin-top: 1.75em;
 }
 @media (max-width: 767px) {
   .work .area .tags {
-    margin-right: -1.3em;
-    margin-bottom: 2em;
-    margin-top: -2em;
+    margin-right: 1em;
+    height: 2.5em;
   }
 }
 @media (min-width: 768px) {
   .work .area .tags {
-    margin-right: 0em;
-    margin-left: 12.6em;
+    margin-right: 1em;
   }
 }
 @media (min-width: 992px) {
   .work .area .tags {
-    margin-right: 0em;
-    margin-left: 17em;
+    margin-right: 2.25em;
   }
 }
 @media (min-width: 1200px) {
   .work .area .tags {
-    margin-right: 3em;
-    margin-left: 0em;
+    margin-right: 4.5em;
   }
 }
 .work .area .label {
   margin: 0.2em;
   float: right;
+  clear: right;
+}
+@media (max-width: 767px) {
+  .work .area .label {
+    clear: none;
+  }
 }
 
 .clients {
