@@ -1,27 +1,32 @@
 ---
-title: Autonomous Android-based vehicles
+title: Autonomous Android-based Vehicles
 date: 2015/01/01 00:00:02
 category: projects
 tags: Android, Java, Android NDK, UAV, autonomous navigation
 line: C
 ---
 
-The aim of this project is to develop an autonomous robot system using
-<a href="http://wiki.ros.org" target="_blank">ROS</a> that executes entirely on an Android device.
-
-
-We contributed to <a href="http://wiki.ros.org/rosjava" target="_blank">ROS Java</a> by implementing a
-<a href="https://github.com/creativa77/base_controller" target="_blank">base controller</a> from scratch,
-extend it to use the multiple radios instead of just WiFi and added the ability
-to create externally reachable masters in an <%= tag_link "Android" %> device.
-
+The aim of this project was to develop autonomous robot systems with
+<a href="http://wiki.ros.org" target="_blank">ROS</a> using entirely
+off-the-shelf Android devices as computing devices - both for usage
+and for robot-side computing.
 
 <!-- this string indicates where the article sohuld be cut -->
 READMORE
 
+We contributed to <a href="http://wiki.ros.org/rosjava" target="_blank">ROS Java</a> by implementing a
+<a href="https://github.com/creativa77/base_controller" target="_blank">base controller</a> from scratch,
+extending it to use multiple radios instead of only WiFi and adding the ability
+to create externally reachable <%= tag_link "ROS" %> masters in an <%= tag_link "Android" %> device.
 
-After a first success with ground vehicles navigation we adapted the web interface 
-for flying drones, helped creating the communication system between the interface 
+After a first success with ground vehicles navigation we adapted the web interface
+for flying drones, helped creating the communication system between the interface
 and the drone and adapting the Pixhawk onboard computer project to that system.
-We also developed an autonomous mission teleoperation App (Android) for flying 
-vehicles with live video feed and waypoint support.
+We also developed an autonomous mission teleoperation App (Android) for flying
+vehicles with live video streaming and waypoint support.
+
+Some of the components developed during this project were released as open source software:
+
+ - <a href="https://github.com/creativa77/AndroidStreamingClient">Android Streaming Client</a>
+ - <a href="https://github.com/creativa77/roscpp_android">roscp_android</a>
+ - <a href="https://github.com/creativa77/base_controller">base_controller</a>

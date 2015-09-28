@@ -16,8 +16,10 @@ js:
             <%= link_to project.title, project.path %>
           </h2>
 
-          <p><%= project.summary %></p>
-          <p><%= link_to "Read more &#8594;", project.path %></p>
+          <p><%= project.summary(500) %></p>
+          <% if project.body.length > 500 %>
+            <p><%= link_to "Read more &#8594;", project.path %></p>
+          <% end %>
         </section>
       <% end %>
 
@@ -27,8 +29,10 @@ js:
             <%= link_to project.title, project.path %>
           </h2>
 
-          <p><%= project.summary %></p>
-          <p><%= link_to "Read more &#8594;", project.path %></p>
+          <p><%= project.summary(500) %></p>
+          <% if project.body.length > 500 %>
+            <p><%= link_to "Read more &#8594;", project.path %></p>
+          <% end %>
         </section>
       <% end %>
 
@@ -38,8 +42,10 @@ js:
             <%= link_to project.title, project.path %>
           </h2>
 
-          <p><%= project.summary %></p>
-          <p><%= link_to "Read more &#8594;", project.path %></p>
+          <p><%= project.summary(500) %></p>
+          <% if project.body.length > 550 %>
+            <p><%= link_to "Read more &#8594;", project.path %></p>
+          <% end %>
         </section>
       <% end %>
 
@@ -49,8 +55,10 @@ js:
             <%= link_to project.title, project.path %>
           </h2>
 
-          <p><%= project.summary %></p>
-          <p><%= link_to "Read more &#8594;", project.path %></p>
+          <p><%= project.summary(500) %></p>
+          <% if project.body.length > 550 %>
+            <p><%= link_to "Read more &#8594;", project.path %></p>
+          <% end %>
         </section>
       <% end %>
 
@@ -60,8 +68,10 @@ js:
             <%= link_to project.title, project.path %>
           </h2>
 
-          <p><%= project.summary %></p>
-          <p><%= link_to "Read more &#8594;", project.path %></p>
+          <p><%= project.summary(500) %></p>
+          <% if project.body.length > 700 %>
+            <p><%= link_to "Read more &#8594;", project.path %></p>
+          <% end %>
         </section>
       <% end %>
     </article>
