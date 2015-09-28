@@ -1,20 +1,25 @@
 ---
-title: Intelligent robots for the everyday life
+title: Interfacing with robots, in concert
 date: 2015/01/01 00:00:01
 category: projects
-tags: Service Robots, Python, Multi Robot
+tags: Python, Multi Robot, Web interface, Meteor, Robot Web Tools
 line: C
 ---
 
-Established in 1988, <a href="http://en.yujinrobot.com" target="_blank">Yujin Robots</a> is a Seoul based company specialized 
-in research and development of intelligent-type <%= tag_link "service robots" %> to add 
-convenience to everyday life.
-
+Ekumen assisted <a href="http://en.yujinrobot.com" target="_blank">Yujin Robots</a> in extending
+the capabilities of the very ambitious <a href="http://www.robotconcert.org/" target="_black">Robotics in Concert</a>
+project with a high-level authoring interface and the ability to access robotics capabilities from the Internet.
 
 <!-- this string indicates where the article sohuld be cut -->
 READMORE
 
-Here at Ekumen we're working with <%= tag_link "Python" %> to improve their <%= tag_link "multi robot" %> teleoperation, 
-adding to the system the possibility to connect through a proxy that allow to control 
-robots remotely, while getting a live video streaming.
+On an initial engagement, Ekumen used its expertise on large-scale software projects to assist in
+the initial stages of the development of a social-based authoring interface for <%= tag_link "multi robot" %> systems.
+An initial state-of-the art <%= tag_link "Web interface" %> was architected and prototyped using <%= tag_link "Meteor" %>, after which
+Yujin's team took over the development of the project with the guidance of Ekumen's experts.
 
+Later, Ekumen took the lead to implement a proxy-based mechanism based on rosbridge and <%= tag_link "Robot Web Tools" %>
+to allow ROS clients in the Internet to connect to ROS and <a href="http://www.robotconcert.org/" target="_black">ROCON</a>
+systems which are running behind firewalls without the need for port-forwarding.
+Additional prototyped features included the ability to proxy HTTP video streams, managing connections to
+multiple concerts and basic security with password-based authentication and role-based authorization.
