@@ -3,7 +3,7 @@
 # ========================================================================
 
 set :site_title,            "Ekumen"
-set :site_description,      "We are people from different parts of the planet to build technology for the world."
+set :site_description,      "We are an international engineering boutique, provider of advanced software development services and technology."
 set :site_url_production,   "http://www.ekumenlabs.com"
 set :site_url_development,  "http://localhost:4567/"
 set :partials_dir,          '_partials'
