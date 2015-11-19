@@ -1,0 +1,36 @@
+@import "_variables";
+@import "bootstrap/variables";
+
+li a {
+  color: $blue;
+  }
+
+
+#job1 {
+  background: url('/images/jobs/tang.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#job2 {
+  background: url('/images/jobs/work.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  vertical-align: middle;
+  margin-top: 2em;
+  margin-bottom: 1em;
+
+}
+
+#job3 {
+  background: url('/images/jobs/drone.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
