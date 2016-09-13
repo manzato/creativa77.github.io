@@ -34,3 +34,26 @@ li a {
   margin-top: 2em;
   margin-bottom: 1em;
 }
+
+@mixin job-posting-image-base {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+}
+
+.roboticist-job {
+  .top-right-image {
+    @include job-posting-image-base;
+    background: url('/images/jobs/gazebo.jpg');
+    height: 15em;
+    width: 23em;
+  }
+  .middle-left-image {
+    @include job-posting-image-base;
+    background: url('/images/jobs/work.jpg');
+    height: 14em;
+    width: 21em;
+  }
+}
