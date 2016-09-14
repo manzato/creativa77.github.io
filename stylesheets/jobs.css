@@ -1,0 +1,52 @@
+li a {
+  color: #0082be;
+}
+
+#job1 {
+  background: url("/images/jobs/tang.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#job2 {
+  background: url("/images/jobs/work.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  vertical-align: middle;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#job3 {
+  background: url("/images/jobs/drone.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.roboticist-job .top-right-image {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+  background: url("/images/jobs/gazebo.jpg");
+  height: 15em;
+  width: 23em;
+}
+.roboticist-job .middle-left-image {
+  background-size: cover;
+  background-position: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  vertical-align: middle;
+  background: url("/images/jobs/work.jpg");
+  height: 14em;
+  width: 21em;
+}

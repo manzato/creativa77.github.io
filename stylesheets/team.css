@@ -1,0 +1,14 @@
+.team .content .person-container {
+  margin: 30px 0;
+}
+.team .content .person-container .person-name {
+  margin-top: 7.5px;
+}
+.team .content .person-container .person-bio {
+  font-size: 14px;
+  word-break: break-word;
+}
+.team .content .person-container .person-picture {
+  margin-right: 30px;
+  width: 200px;
+}
